@@ -1,0 +1,74 @@
+.logariasmos-sec{
+	margin-bottom: 35px;
+}
+.logariasmos-inner-wrp {
+    padding-top: 20px;
+}
+.logariasmos-right {
+    background: #f5f5f5;
+    padding: 30px 35px;
+}
+.logariasmos-block{
+	margin-bottom: 62px;
+}
+.logariasmos-block:nth-child(1) .logariasmos-block-top {
+    margin-bottom: 33px;
+}
+.logariasmos-block:nth-child(2) .logariasmos-block-top{
+	margin-bottom: 25px; 
+}
+.logariasmos-block-top {
+    padding: 10px 9px 19px;
+    border-bottom: 1px solid #979797;
+}
+.logariasmos-block-top span {
+    font-size: 13px;
+    font-weight: 600;
+    color: #b0b0b0;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+.logariasmos-block-left{
+	width:55.21%;
+	float: left;
+	padding-right: 20px;
+	padding-left: 7px;
+}
+.logariasmos-block-rgt{
+	width:44.79%;
+	float: left;
+	padding-left: 7px;
+}
+.logariasmos-block-main h5{
+  font-weight: 600;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.logariasmos-block-main .logariasmos-innr-info{
+	margin-bottom: 15px
+}
+.logariasmos-block-main .logariasmos-innr-info span{
+	display: block;
+	font-size: 13px;
+}
+.logariasmos-block-main .logariasmos-innr-info span a{
+	display: inline-block;
+	vertical-align: baseline;
+	color:#000;
+	font-size: 13px;
+}
+.logariasmos-block span.info-lnc{
+	display: inline-block;
+	vertical-align: baseline;
+}
+.logariasmos-block .info-lnc a{
+	font-weight: 600;
+	color: #000;
+	-ms-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.logariasmos-block .info-lnc a:hover{
+	opacity: 0.6;
+}

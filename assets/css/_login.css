@@ -1,0 +1,390 @@
+.ed-dft-field-grd-lft{
+	float: left;
+	width: 60%;
+	background: #F5F5F5;
+	padding-top: 30px;
+}
+.login-signin-sec{
+	overflow: hidden;
+}
+
+.login-ed-sec .ed-dft-field-grd-lft,
+.registration-ed-sec .ed-dft-field-grd-lft{
+	margin-bottom: 50px;
+}
+
+.ed-dft-field-grd-rgt{
+	float: right;
+	width: 40%;
+	padding: 0 30px 0 70px;
+}
+.form-hdr-title{
+	padding: 50px 0 0 56px;
+}
+
+
+
+.form-hdr-title h1{
+	font-weight: 300;
+	margin: 0 0 35px 0;
+	text-transform: uppercase;
+}
+.contact-ed-sec .form-hdr-title h1{
+	text-transform: initial;
+}
+.ed-dft-form-entry-hdr{
+	padding: 0 0 25px 56px;
+}
+.course-forget-btn{
+	padding-left: 56px;
+	padding-right: 53px;
+	margin-bottom: 35px;
+}
+.pdbtm-35{
+	padding-bottom: 35px!important;
+}
+.ed-dft-form-controller form{
+	
+	
+}
+.ed-dft-2-grd-wrap{
+
+}
+.ed-dft-grd-col{
+	float: left;
+	width: 50%;
+	padding: 0 56px;
+}
+.ed-dft-grd-full{
+	padding: 0 56px;
+}
+.ed-dft-form-controller .ed-dft-grd-col label,
+.ed-dft-form-controller  .ed-dft-grd-full label{
+	display: block;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 14px;
+	position: relative;
+}
+
+.ed-dft-form-controller .ed-dft-grd-col label span,
+.ed-dft-form-controller  .ed-dft-grd-full label span{
+	position: absolute;
+	left: -15px;
+	top: 0;
+}
+
+.ed-dft-form-controller input[type="email"],
+.ed-dft-form-controller input[type="password"],
+.ed-dft-form-controller input[type="text"]{
+	width: 100%;
+	background: #D8D8D8;
+	height: 31px;
+	border-radius: 8px; 
+	padding: 10px;
+	border: none;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.requered-txt{
+	background: #fff;
+	padding-top: 15px;
+}
+.requered-txt span{
+	font-weight: 300;
+	display: block;
+	line-height: 15px;
+	font-style: italic;
+}
+
+.ed-dft-grd-full textarea{
+	margin-bottom: 30px;
+	width: 100%;
+	background: #D8D8D8;
+	min-height: 191px;
+	resize: none;
+	border: none;
+	border-radius: 8px; 
+	padding: 10px;
+}
+
+.ed-dft-form-controller input[type="email"]:focus,
+.ed-dft-form-controller input[type="password"]:focus,
+.ed-dft-form-controller input[type="text"]:focus,
+.ed-dft-grd-full textarea:focus{
+	background: #bfbdbd;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.course-forget-btn button{
+	border: none;
+	background: transparent;
+	float: right;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+}
+.course-forget-btn button:hover{
+	opacity: .6;
+}
+.ed-dft-form-submit-btn button{
+	background: #000000;
+	color: #fff;
+	text-align: right;
+	padding: 0 90px 0 10px;
+	height: 51px; 
+	width: 100%;
+	position: relative;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 17px;
+}
+.ed-dft-form-submit-btn button:after{
+	content: "\f0da";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	right: 60px;
+	position: absolute;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.ed-dft-form-submit-btn button:hover:after{
+	right: 55px;
+}
+.ed-dft-create-account{
+	background: #000000;
+	padding: 30px 30px 27px;
+	color: #fff;
+	text-align: center;
+}
+.ed-dft-create-account strong{
+	margin-bottom: 25px;
+	display: block;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 15px;
+}
+.ed-dft-create-account p{
+	margin-bottom: 35px;
+}
+.ed-dft-create-account button{
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 17px;
+	border: 2px solid #FFFFFF;
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: transparent;
+	width: 100%;
+}
+.ed-dft-create-account button:hover{
+	background: #fff;
+	color: #000;
+}
+.ed-dft-form-page-ftr-bdr{
+	padding: 40px 30px 0 0; 
+}
+
+.ed-dft-contact-info{
+	background: #ECECEC;
+	padding: 40px 30px 22px;
+}
+
+.ed-dft-contact-info .frt-contact-left strong{
+	font-weight: 400;
+	margin: 0;
+	padding-bottom: 45px;
+	font-size: 14px;
+	line-height: 18px;
+	display: block;
+}
+.ed-dft-contact-info .frt-contact-left > ul > li{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.ed-dft-rgt-bx-social .frt-contact-box-social{
+	width: 100%;
+	padding-top: 25px;
+}
+.ed-dft-rgt-bx-social .frt-contact-box-social a {
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: left;
+    margin-right: 10px;
+}
+.ed-dft-rgt-bx-social .frt-contact-box-social a:hover{
+	opacity: .6;
+}
+.frt-contact-left li span {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #7d7d7d;
+    text-transform: uppercase;
+}
+.frt-contact-left li span.lst-spn a {
+    color: #000;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.frt-contact-left li span.lst-spn a:hover{
+	opacity: .6;
+}
+.frt-contact-left li span.cell a {
+    color: #7d7d7d;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.frt-contact-left li span.lst-spn {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #000;
+    display: block;
+}
+.frt-contact-left > ul > li {
+    float: left;
+    width: 50%;
+    position: relative;
+    padding-left: 40px;
+}
+.frt-contact-left > ul > li:nth-child(1) > i > img {
+    top: 20px;
+}
+.frt-contact-left > ul > li > i > img {
+    position: absolute;
+    left: 0;
+}
+
+.contact-ed-sec {
+	padding-bottom: 60px;
+}
+.registration-ed-sec {
+	padding-bottom: 30px;
+}
+.login-ed-sec {
+	padding-bottom: 30px;
+}
+
+
+/*
+--------------------
+Start Responsive ->>
+--------------------
+*/
+@media(max-width: 1199px){
+	.ed-dft-grd-col,
+	.ed-dft-grd-full{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.ed-dft-form-entry-hdr,
+	.form-hdr-title{
+		padding-left: 30px;
+	}
+	.ed-dft-field-grd-rgt{
+		padding-right: 0;
+	}
+	.course-forget-btn{
+		padding-right: 30px;
+	}
+	.ed-dft-form-submit-btn button:after{
+		right: 38px;
+	}
+	.ed-dft-form-submit-btn button:hover:after{
+		right: 32px;
+	}
+	.ed-dft-form-submit-btn button{
+		padding-right: 65px;
+	}
+}
+
+
+@media(max-width: 991px){
+	.form-hdr-title h1{
+		margin-bottom: 30px;
+	}
+	.ed-dft-field-grd-lft{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.ed-dft-field-grd-rgt{
+		width: 100%;
+		padding-left: 0;
+	}
+	.ed-dft-create-account{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.registration-ed-sec {
+	    padding-bottom: 40px;
+	}
+
+}
+
+
+@media(max-width: 767px){
+
+}
+
+
+
+@media(max-width: 639px){
+
+}
+
+
+
+@media(max-width: 575px){
+	.ed-dft-grd-col {
+	    width: 100%;
+	}
+	.form-hdr-title h1{
+		font-size: 25px;
+	}
+
+}
+
+
+@media(max-width: 479px){
+
+
+}
+
+
+
+@media(max-width: 359px){
+
+}
+
+
+
+/* extra css */
+
+.frt-contact-left > ul > li:nth-child(1) > i > img {
+    width: 21px;
+}
+
+.social_fit{
+	width: 20px;
+}

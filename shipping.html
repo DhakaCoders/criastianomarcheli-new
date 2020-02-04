@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shipping</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->  
+
+</head>
+<body>
+<header id="sticky-menu" class="header">
+  <div class="container-xlg">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="hdr-inner clearfix">
+          <div class="hdr-col hdr-left">
+            <div class="header-rgt-menu">                         
+              <div class="nav-opener-wrp">
+                <div class="nav-opener">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <nav class="hdr-nav"> 
+                <ul class="ulc clearfix">
+                  <li><a href="#">shop now</a></li>
+                  <li><a href="#">our collections</a></li>
+                  <li><a href="#">about us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="hdr-col hdr-logo">       
+            <a href="#">
+              <img class="logo-main" src="assets/images/logo.svg">
+            </a>
+          </div>
+          <div class="hdr-col hdr-right clearfix">       
+            <ul class="ulc clearfix">
+              <li>
+                <div class="account-wrp"> 
+                  <a id="account-btn" href="#">account</a>
+                </div>              
+              </li>
+              <li>
+                <div class="cart-wrp"> 
+                  <a id="h-cart" href="#">cart <span>0</span></a>
+                </div>        
+              </li>
+              <li>
+                <div class="hdr-form">
+                  <div class="header-search-btn">
+                    <button id="search">
+                      <i class="search-icon">
+                        <img src="assets/images/hdr-search-inc.svg" alt="">
+                      </i>
+                    </button>
+                  </div>        
+                </div>     
+              </li>
+            </ul>
+            <div class="hdr-cart-toggle-menu">
+              <div class="hdr-cart-toggle-menu-inr">
+                <ul class="clearfix ulc">                      
+              
+                  <li class="toggle-menu-cart-item">
+                    <a href="#">
+                      <i>
+                        <img src="assets/images/trash-inc.png" alt="">
+                      </i>
+                    </a>
+                    <img class="cart-img-m" src="assets/images/cart-img001.png">
+                    <div class="toggle-menu-cart-item-des clearfix">
+                      <span>THUNDER ΕΣΠΑΝΤΡΙΓΙΕΣ</span>
+                      <span> 
+                        <strong>59.00€</strong> 
+                      </span>
+                    </div>
+                    <div class="mini-cart-pro-des">
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>                        
+                    <div class="cart-qyt-num clearfix">
+                      <div class="mini-cart-qty">
+                        <label>Qty:</label>
+                        <div class="qty">
+                          <span class="minus">-</span>
+                          <input min="1" type="number" class="count" name="qty" value="1">
+                          <span class="plus">+</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>          
+                  <li class="toggle-menu-cart-item">
+                    <a href="#">
+                      <i>
+                        <img src="assets/images/trash-inc.png" alt="">
+                      </i>
+                    </a>
+                    <img class="cart-img-m" src="assets/images/cart-img001.png">
+                    <div class="toggle-menu-cart-item-des clearfix">
+                      <span>THUNDER ΕΣΠΑΝΤΡΙΓΙΕΣ</span>
+                      <span> 
+                        <strong>59.00€</strong> 
+                      </span>
+                    </div>
+                    <div class="mini-cart-pro-des">
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>                        
+                    <div class="cart-qyt-num clearfix">
+                      <div class="mini-cart-qty">
+                        <label>Qty:</label>
+                        <div class="qty">
+                          <span class="minus">-</span>
+                          <input min="1" type="number" class="count" name="qty" value="1">
+                          <span class="plus">+</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>  
+                  <li class="hct-total-amount clearfix">
+                    <span><strong>2</strong> προϊόντα </span>
+                    <span>ΣΥΝΟΛΙΚΟ ΠΟΣΟ<strong>118.00€</strong></span>       
+                  </li>                 
+                  <li>
+                    <div class="hdr-cart-toggle-menu-ftr text-center">
+                      <a href="#">ΟΛΟΚΛΗΡΩΣΗ ΠΑΡΑΓΓΕΛΙΑΣ</a>
+                    </div>
+                  </li>       
+                                                
+                </ul>                    
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+
+  <div id="header-popups" class="header-popups">
+    <div class="hdrpopups-inr">
+      <div class="header-popup-search clearfix">
+        <div class="popup-cross">
+          <div class="popup-cross-inr"> 
+            <span></span>
+            <span></span>
+          </div>            
+        </div>
+        <div class="search-form">
+          <form action="" class="form">
+            <div class="form-group">
+              <input placeholder="Search" class="form-input" type="text" />
+              <input class="search-submit-btn" type="submit" value="">
+            </div>
+          </form>
+        </div>       
+      </div>  
+    </div>
+  </div>
+</header>
+
+
+
+<section class="page-banner" id="page-banner-2">
+  <div class="page-banner-controller" style="position: relative; overflow: hidden;">
+    <div class="page-banner-bg" style="background-image:url(assets/images/page-banner.jpg);"></div>
+    <div class="page-banner-des-inner">
+      <strong class="banner-page-title hide-title">Lorem Ipsum</strong>
+      <div class="page-banner-ftr">
+        
+      </div>
+    </div>
+  </div>
+</section><!-- end of page-banner -->
+
+<section  class="shipping-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="shipping-sec-inr container-inner clearfix"> 
+          <div class="tab-btn-wrp"> 
+            <div class="estimated-block clearfix">
+                <span class="estimated-label">Estimated Total</span>
+                <span class="estimated-price">285.00€</span>
+            </div>
+            <ul class="ulc clearfix">
+              <li class="active-1">
+                <span>1 Shipping</span>
+              </li>
+              <li class="active-2">
+                <span>2 Review & Payments</span>
+              </li>
+            </ul>
+          </div>
+          <div class="ship-ord-smry">
+
+            <div class="order-sumry-rgt-con">
+              <div class="order-sumry-rgt-innr">
+                <h5>Order Summary</h5>
+                <div class="odr-sumry-btn-clk">
+                  <button type="button" class="odr-btn-expend">1 Item in Cart</button>
+                </div>
+                <div class="product-des-innr">
+                  <div class="odr-product-item clearfix">
+                    <div class="product-img">
+                      <img src="assets/images/cart-img001.jpg">
+                    </div>
+                    <div class="product-dsc">
+                      <span>THUNDER ΕΣΠΑΝΤΡΙΓΙΕΣ</span>
+                      <span class="price-spn">59.00€</span>  <br />              
+                      <span>Qty: <strong>1</strong></span> <br />
+                      <span>Size: <strong>XS</strong></span>
+                      <span>Color: <strong>Green</strong></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="shipping-sec-form-main">
+            <div class="shipping-sec-form">
+              <div class="contact-info">
+                <form id="shipping" id="shipping" data-toggle="validator" role="form" method="post">
+                  <div class="sb-input-wrap clearfix">
+                    <div class="sb-input form-group">
+                      <label for="Όνομα">Όνομα</label>
+                      <input type="text" id="Όνομα" required />
+                    </div>
+                    <div class="sb-input form-group">
+                      <label for="Κώδικός">Κώδικός</label>
+                      <input type="text" id="Κώδικός" required />
+                    </div>
+                  </div>                
+                  <div class="form-group form-group-wrp">
+                    <label for="ιεύθυνση">Διεύθυνση - Αριθμός </label>
+                    <input type="text" id="ιεύθυνση" required />
+                  </div>                
+                  <div class="sb2-input-wrap clearfix">
+                    <div class="sb-input-1 form-group">
+                      <label for="Πόλη">Πόλη</label>
+                      <input type="text" id="Πόλη" required />
+                    </div>
+                    <div class="sb-input-2 form-group">
+                      <label for="ΤΚ">ΤΚ</label>
+                      <input type="text" id="ΤΚ" required />
+                    </div>
+                  </div>
+                  <div class="sb-input-wrap clearfix">
+                    <div class="sb-input form-group">
+                      <label for="Email">Email</label>
+                      <input type="email" id="Email" required />
+                    </div>
+                    <div class="sb-input form-group">
+                      <label for="Τηλέφωνο">Τηλέφωνο</label>
+                      <input type="text" id="Τηλέφωνο" required />
+                    </div>
+                  </div>
+                  <div class="form-group-wrap input-submit-group clearfix">
+                    <input type="submit" value="εισοδοσ" />
+                  </div>
+                </form> 
+                <form id="payment" method="post">
+                  <div class="payment-method-wrp">
+                    <div class="payment-method-innr">
+                      <h3>Payment Method:</h3>
+                      <ul>
+                        <li>
+                          <div class="cash-delivery-dsc-innr">
+                            <div class="cash-delivery-title">
+                              <input type="radio" name="paymethod" value="cashondelivery">
+                              <span>Cash On Delivery</span>
+                            </div>
+                            
+                            <div class="cashondelivery">
+                              <div class="isnewaddress">
+                                <input id="sameaddress" type="checkbox" name="sameaddress" checked>
+                                <label for="sameaddress">My billing and shipping address are the same</label>
+                              </div>
+                              <div class="address-dsc">
+                                <span>jon jong</span> <br>
+                                <span>1 Maiou 1886 Street</span> <br>
+                                <span>Aigio, Achaea 25100</span> <br>
+                                <span>Greece</span> <br>
+                                <a href="tel:+55(555025)">+55(555025)</a>
+                              </div>
+                              <div class="account-form">
+                                <form id="accountform"> 
+                                 <div class="shipping-frm-innr">
+                                   <div class="shipping-frm-fields form-group">
+                                     <label for="firstname">First Name<span>*</span></label>
+                                     <input type="text" id="firstname" name="first name" data-error="The field is required." required>
+                                   </div>
+
+                                   <div class="shipping-frm-fields form-group has-feedback">
+                                     <label for="lastname">Last Name<span>*</span></label>
+                                     <input type="text" id="lastname" name="last name" data-error="The field is required." required>
+                                   </div>
+
+                                   <div class="shipping-frm-fields form-group">
+                                     <label for="strtaddress">Street Address<span>*</span></label>
+                                     <input type="text" id="strtaddress" name="street address" data-error="The field is required." required>
+                                   </div>
+
+                                   <div class="shipping-frm-fields form-group">
+                                     <label for="city">City<span>*</span></label>
+                                     <input type="text" id="city" name="city" data-error="The field is required." required>
+                                   </div>
+                                   <div class="shipping-frm-fields">
+                                    <div class="shipping-select-wrp">
+                                      <label>State/Province</label>
+                                       <select class="selectpicker" data-size="5">
+                                          <option selected="selected">Please select a region, state or province.</option>
+                                          <option>Ketchup</option>
+                                          <option>Relish</option>
+                                          <option>Mustard</option>
+                                          <option>Ketchup</option>
+                                          <option>Relish</option>
+                                          <option>Mustard</option>
+                                          <option>Ketchup</option>
+                                          <option>Relish</option>
+                                          <option>Mustard</option>
+                                          <option>Ketchup</option>
+                                          <option>Relish</option>
+                                      </select>
+                                    </div>
+                                   </div>
+                                   <div class="shipping-frm-fields form-group">
+                                     <label for="zippostal">Zip/Postal Code<span>*</span></label>
+                                     <input type="text" id="zippostal" name="postal code" data-error="The field is required." required>
+                                   </div>
+
+                                   <div class="shipping-frm-fields">
+                                    <div class="shipping-select-wrp">
+                                      <label>Country</label>
+                                       <select class="selectpicker" data-size="10" data-live-search="true">
+                                        <option selected="selected">Greece</option>
+                                        <option value="AF">Afghanistan</option>
+                                        <option value="AX">Åland Islands</option>
+                                        <option value="AL">Albania</option>
+                                        <option value="DZ">Algeria</option>
+                                        <option value="AS">American Samoa</option>
+                                        <option value="AD">Andorra</option>
+                                        <option value="AO">Angola</option>
+                                        <option value="AI">Anguilla</option>
+                                        <option value="AQ">Antarctica</option>
+                                        <option value="AG">Antigua and Barbuda</option>
+                                        <option value="AR">Argentina</option>
+                                        <option value="AM">Armenia</option>
+                                        <option value="AW">Aruba</option>
+                                      </select>
+                                    </div>
+                                   </div>
+                                   <div class="shipping-frm-fields phn-icon-field form-group">
+                                     <label for="phonenumber">Phone Number<span>*</span></label>
+                                     <input type="text" id="phonenumber" name="phone number" data-error="The field is required." required>
+                                   </div>
+                                   <div class="afsubmit clearfix">
+                                     <input type="submit" name="afsubmit" value="Update">
+                                      <a id="afcencel">Cencel</a>
+                                   </div>
+                                  </div>
+                                  </form>
+                                 </div>                            
+                              </div>
+                              <div class="oder-btn clearfix">
+                                <button type="button" value="">Place Order</button>
+                              </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="exp-checkout-innr">
+                            <div class="exp-checkout-dsc">
+                              <input type="radio" name="paymethod" value="paypal">
+                              <img src="assets/images/pp-acceptance-medium.png">
+                              <span>PayPal Express Checkout<a href="#">What is PayPal?</a></span>
+                            </div>
+                            <div class="paypal-btn paypal clearfix">
+                              <button type="button" value="">Continue to PayPal</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="cash-delivery-dsc-innr">
+                            <div class="cash-delivery-dsc">
+                              <div class="credit-card-field">
+                                <input type="radio" name="paymethod" value="bankcc">
+                                <span>Piraeus Bank Credit Card (redirect)</span> 
+                                <img src="assets/images/piraeusbnk.png">
+                              </div>
+                              <div class="show-address-dsc bankcc">
+                                <div class="address-dsc">
+                                  <span>jon jong</span> <br>
+                                  <span>1 Maiou 1886 Street</span> <br>
+                                  <span>Aigio, Achaea 25100</span> <br>
+                                  <span>Greece</span> <br>
+                                  <a href="tel:+55(555025)">+55(555025)</a>
+                                </div>
+                                <div class="oder-btn clearfix">
+                                  <button type="button" value="">Place Order</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="apply-discount-innr">
+                            <span class="disc-code">Apply Discount Code</span>
+                            <div class="submit-fields clearfix">
+                              <form>
+                                <input type="text" name="" placeholder="Enter discount code">
+                                <button class="apply-discount-btn" type="submit" value="">Apply Discount</button>
+                              </form>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </form> 
+              </div>
+            </div>
+          </div>
+
+                    
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- end of login-signin-sec -->
+
+
+<footer class="footer-wrap">
+  <div class="footer-top-wrp">
+    <div class="container-lg-2">
+      <div class="row">
+        <div class="col-sm-12"> 
+          <div class="footer-top clearfix"> 
+            <div class="footer-top-col">
+              <h5><span>Security - Privacy</span></h5>
+              <a href="#">Terms and Conditions</a>
+            </div>
+            <div class="footer-top-col">
+              <h5><span>RETURNS & REFUNDS</span></h5>
+              <a href="#">Read more</a>
+            </div>
+            <div class="footer-top-col">
+              <h5><span>Customer Service</span></h5>
+              <a href="#">Please Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div class="ftr-main-con">
+    <div class="container-lg-2">
+      <div class="row">
+        <div class="col-sm-12"> 
+          <div class="ftr-social-newsletter-innr clearfix"> 
+            <div class="ftr-social">
+              <div class="ftr-social-head"> 
+                <h5>Follow Us</h5>
+              </div>
+              <ul class="ulc clearfix">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-facebook-official"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="ftr-newsletter">
+              <div class="ftr-newsletter-head"> 
+                <h5>BE THE FIRST TO KNOW. SIGN UP FOR OUR NEWSLETTER.</h5>
+              </div>
+              <div class="ftr-newsletter-main"> 
+                <form class="" action="">
+                  <div class="from-group">
+                    <input class="Subs-fill">
+                    <button><span></span></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="ftr-btm-con clearfix"> 
+            <div class="ftr-btm-left"> 
+              <ul class="ulc clearfix"> 
+                <li>
+                  <a href="#">DISCLAIMER</a>
+                </li> 
+                <li>
+                  <a href="#">PRIVACY POLICY</a>
+                </li> 
+                <li>
+                  <a href="#">COOKIES POLICY</a>
+                </li> 
+                <li>
+                  <a href="#">TERMS & CONDITIONS</a>
+                </li> 
+              </ul>
+            </div>
+            <div class="ftr-btm-rgt"> 
+              <p><span>-</span> COPYRIGHT © 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-select.js"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
+<script src="assets/slick.slider/slick.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBHGhdEW-qtkQ_6LrsrftdX4aXa7W58c_Y"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/validator.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop Listing</title> 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->  
+
+</head> 
+<body>
+<header id="sticky-menu" class="header">
+  <div class="container-xlg">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="hdr-inner clearfix">
+          <div class="hdr-col hdr-left">
+            <div class="header-rgt-menu">                         
+              <div class="nav-opener-wrp">
+                <div class="nav-opener">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <nav class="hdr-nav"> 
+                <ul class="ulc clearfix">
+                  <li><a href="#">shop now</a></li>
+                  <li><a href="#">our collections</a></li>
+                  <li><a href="#">about us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="hdr-col hdr-logo">       
+            <a href="#">
+              <img class="logo-main" src="assets/images/logo.svg">
+            </a>
+          </div>
+          <div class="hdr-col hdr-right clearfix">       
+            <ul class="ulc clearfix">
+              <li>
+                <div class="account-wrp"> 
+                  <a id="account-btn" href="#">account</a>
+                </div>              
+              </li>
+              <li>
+                <div class="cart-wrp"> 
+                  <a id="h-cart" href="#">cart <span>0</span></a>
+                </div>        
+              </li>
+              <li>
+                <div class="hdr-form">
+                  <div class="header-search-btn">
+                    <button id="search">
+                      <i class="search-icon">
+                        <img src="assets/images/hdr-search-inc.svg" alt="">
+                      </i>
+                    </button>
+                  </div>        
+                </div>     
+              </li>
+            </ul>
+            <div class="hdr-cart-toggle-menu">
+              <div class="hdr-cart-toggle-menu-inr">
+                <ul class="clearfix ulc">                      
+              
+                  <li class="toggle-menu-cart-item">
+                    <a href="#">
+                      <i>
+                        <img src="assets/images/trash-inc.png" alt="">
+                      </i>
+                    </a>
+                    <img class="cart-img-m" src="assets/images/cart-img001.png">
+                    <div class="toggle-menu-cart-item-des clearfix">
+                      <span>THUNDER ΕΣΠΑΝΤΡΙΓΙΕΣ</span>
+                      <span> 
+                        <strong>59.00€</strong> 
+                      </span>
+                    </div>
+                    <div class="mini-cart-pro-des">
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>                        
+                    <div class="cart-qyt-num clearfix">
+                      <div class="mini-cart-qty">
+                        <label>Qty:</label>
+                        <div class="qty">
+                          <span class="minus">-</span>
+                          <input min="1" type="number" class="count" name="qty" value="1">
+                          <span class="plus">+</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>          
+                  <li class="toggle-menu-cart-item">
+                    <a href="#">
+                      <i>
+                        <img src="assets/images/trash-inc.png" alt="">
+                      </i>
+                    </a>
+                    <img class="cart-img-m" src="assets/images/cart-img001.png">
+                    <div class="toggle-menu-cart-item-des clearfix">
+                      <span>THUNDER ΕΣΠΑΝΤΡΙΓΙΕΣ</span>
+                      <span> 
+                        <strong>59.00€</strong> 
+                      </span>
+                    </div>
+                    <div class="mini-cart-pro-des">
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>                        
+                    <div class="cart-qyt-num clearfix">
+                      <div class="mini-cart-qty">
+                        <label>Qty:</label>
+                        <div class="qty">
+                          <span class="minus">-</span>
+                          <input min="1" type="number" class="count" name="qty" value="1">
+                          <span class="plus">+</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>  
+                  <li class="hct-total-amount clearfix">
+                    <span><strong>2</strong> προϊόντα </span>
+                    <span>ΣΥΝΟΛΙΚΟ ΠΟΣΟ<strong>118.00€</strong></span>       
+                  </li>                 
+                  <li>
+                    <div class="hdr-cart-toggle-menu-ftr text-center">
+                      <a href="#">ΟΛΟΚΛΗΡΩΣΗ ΠΑΡΑΓΓΕΛΙΑΣ</a>
+                    </div>
+                  </li>       
+                                                
+                </ul>                    
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+
+  <div id="header-popups" class="header-popups">
+    <div class="hdrpopups-inr">
+      <div class="header-popup-search clearfix">
+        <div class="popup-cross">
+          <div class="popup-cross-inr"> 
+            <span></span>
+            <span></span>
+          </div>            
+        </div>
+        <div class="search-form">
+          <form action="" class="form">
+            <div class="form-group">
+              <input placeholder="Search" class="form-input" type="text" />
+              <input class="search-submit-btn" type="submit" value="">
+            </div>
+          </form>
+        </div>       
+      </div>  
+    </div>
+  </div>
+</header>
+
+
+
+<section class="page-banner" id="list-page-banr">
+  <div class="page-banner-controller" style="position: relative; overflow: hidden;">
+    <div class="page-banner-bg animate-banner" style="background-image:url(assets/images/shop-page-banner.jpg);"></div>
+    <div class="page-banner-des-inner">
+      <strong class="banner-page-title hide-title">Shop</strong>
+    </div>
+  </div> 
+
+  
+</section>
+
+
+<div class="page-banner-btm-des">
+    <div class="page-banner-btm-des-innr clearfix"> 
+      <div class="page-banner-btm-des-lft">
+        <span>SHOP BY CATEGORY</span>
+        <a class="btm-des-down-lnc" href="#shop-listing-sec">
+          <img class="resize" src="assets/images/page-bnr-btm-des-inc.svg" alt="">
+        </a>
+      </div>
+      <div class="page-banner-btm-des-rgt" id="banner-custom-order">
+        <form action="">
+          <ul class="ulc">
+            <li>
+              <span>FILTER BY</span>
+            </li>
+            <li> 
+              <div class="custom-color">
+                <span>color</span> 
+                <div class="color-slct"> 
+                  <div class="select-input">
+                    <div class="select-dep">
+                      <select class="selectpicker">
+                        <option value="1">YELLOW</option>
+                        <option value="2">RED</option>
+                        <option value="3">BLACK</option>
+                        <option value="3">GREEN</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>                       
+              <div class="custom-size">
+                <span>size</span>
+                <div class="custom-size-btn">
+                  <!-- Radio-button size-bar design -->
+                  <input type="radio" id="size-xl" name="radios" value="true" checked>
+                    <label for="size-xl">xs</label>
+                  <input type="radio" id="size-x" name="radios" value="true">
+                    <label for="size-x">x</label>
+                  <input type="radio" id="size-m" name="radios" value="true">
+                    <label for="size-m">m</label>
+                  <input type="radio" id="size-l" name="radios" value="true">
+                    <label for="size-l">l</label> 
+                  <input type="radio" id="size-kl" name="radios" value="true">
+                    <label for="size-kl">xl</label> 
+                  
+                  <!-- Checkbox size-bar design -->
+                  <!-- <input type="checkbox" id="size-xl" name="chk1" value="all" checked>
+                    <label for="size-xl">xs</label>                    
+                  <input type="checkbox" id="size-x" name="chk2" value="all">
+                    <label for="size-x">x</label>                    
+                  <input type="checkbox" id="size-m" name="chk3" value="all">
+                    <label for="size-m">m</label>                  
+                  <input type="checkbox" id="size-l" name="chk4" value="all">
+                    <label for="size-l">l</label>                   
+                  <input type="checkbox" id="size-kl" name="chk5" value="all">
+                    <label for="size-kl">xl</label>  -->
+                </div>
+              </div>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+<section class="shop-listing-sec" id="shop-listing-sec">
+  <div class="container-lg-2">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="shop-listing-inner clearfix"> 
+          <div class="shop-listing-left-sidebar"> 
+            <ul class="ulc"> 
+              <li class="active">
+                <a href="#">ALL</a>
+              </li> 
+              <li>
+                <a href="#">BOTTOMS</a>
+              </li> 
+              <li>
+                <a href="#">DRESSES</a>
+              </li> 
+              <li>
+                <a href="#">FLASH COLLECTION</a>
+              </li> 
+              <li>
+                <a href="#">JACKETS</a>
+              </li> 
+              <li>
+                <a href="#">JUMPSUITS</a>
+              </li> 
+              <li>
+                <a href="#">SHIRTS</a>
+              </li> 
+              <li>
+                <a href="#">SHORTS</a>
+              </li> 
+              <li>
+                <a href="#">SKIRTS</a>
+              </li> 
+              <li>
+                <a href="#">TOPS</a>
+              </li> 
+              <li>
+                <a href="#">TROUSERS</a>
+              </li> 
+              <li>
+                <a href="#">COLLECTIONS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="shop-listing-product-grid-wrp"> 
+            <ul class="clearfix ulc">
+              <li>
+                <div class="summer-product-grid"> 
+                  <div class="summer-product-grid-img"> 
+                    <img src="assets/images/summer-collection-001.jpg" alt="">
+                    <a href="#" class="overlay-link"></a>
+                  </div>
+                  <div class="summer-product-grid-des"> 
+                    <div class="summer-product-grid-head"> 
+                      <h3><a href="#">CORINTH</a></h3>
+                    </div>
+                    <span>Silk salvari trousers</span>
+                    <strong class="summer-product-price">€420.00</strong>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="summer-product-grid"> 
+                  <div class="summer-product-grid-img"> 
+                    <img src="assets/images/summer-collection-002.jpg" alt="">
+                    <a href="#" class="overlay-link"></a>
+                  </div>
+                  <div class="summer-product-grid-des"> 
+                    <div class="summer-product-grid-head"> 
+                      <h3><a href="#">Black Lace</a></h3>
+                    </div>
+                    <span>Black Lace Kimono</span>
+                    <strong class="summer-product-price">€420.00</strong>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="summer-product-grid"> 
+                  <div class="summer-product-grid-img"> 
+                    <img src="assets/images/summer-collection-001.jpg" alt="">
+                    <a href="#" class="overlay-link"></a>
+                  </div>
+                  <div class="summer-product-grid-des"> 
+                    <div class="summer-product-grid-head"> 
+                      <h3><a href="#">CORINTH</a></h3>
+                    </div>
+                    <span>Silk salvari trousers</span>
+                    <strong class="summer-product-price">€420.00</strong>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="summer-product-grid"> 
+                  <div class="summer-product-grid-img"> 
+                    <img src="assets/images/summer-collection-002.jpg" alt="">
+                    <a href="#" class="overlay-link"></a>
+                  </div>
+                  <div class="summer-product-grid-des"> 
+                    <div class="summer-product-grid-head"> 
+                      <h3><a href="#">Black Lace</a></h3>
+                    </div>
+                    <span>Black Lace Kimono</span>
+                    <strong class="summer-product-price">€420.00</strong>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="summer-product-grid"> 
+                  <div class="summer-product-grid-img"> 
+                    <img src="assets/images/summer-collection-001.jpg" alt="">
+                    <a href="#" class="overlay-link"></a>
+                  </div>
+                  <div class="summer-product-grid-des"> 
+                    <div class="summer-product-grid-head"> 
+                      <h3><a href="#">CORINTH</a></h3>
+                    </div>
+                    <span>Silk salvari trousers</span>
+                    <strong class="summer-product-price">€420.00</strong>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="summer-product-grid"> 
+                  <div class="summer-product-grid-img"> 
+                    <img src="assets/images/summer-collection-002.jpg" alt="">
+                    <a href="#" class="overlay-link"></a>
+                  </div>
+                  <div class="summer-product-grid-des"> 
+                    <div class="summer-product-grid-head"> 
+                      <h3><a href="#">Black Lace</a></h3>
+                    </div>
+                    <span>Black Lace Kimono</span>
+                    <strong class="summer-product-price">€420.00</strong>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="pagination-wrp">
+              <div class="page-pagination">
+                <ul class="ulc clearfix">
+                  <li class="active">
+                    <a href="#">01</a>
+                  </li>
+                  <li>
+                    <a href="#">02</a>
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    
+</section> 
+
+
+<footer class="footer-wrap">
+  <div class="footer-top-wrp">
+    <div class="container-lg-2">
+      <div class="row">
+        <div class="col-sm-12"> 
+          <div class="footer-top clearfix"> 
+            <div class="footer-top-col">
+              <h5><span>Security - Privacy</span></h5>
+              <a href="#">Terms and Conditions</a>
+            </div>
+            <div class="footer-top-col">
+              <h5><span>RETURNS & REFUNDS</span></h5>
+              <a href="#">Read more</a>
+            </div>
+            <div class="footer-top-col">
+              <h5><span>Customer Service</span></h5>
+              <a href="#">Please Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div class="ftr-main-con">
+    <div class="container-lg-2">
+      <div class="row">
+        <div class="col-sm-12"> 
+          <div class="ftr-social-newsletter-innr clearfix"> 
+            <div class="ftr-social">
+              <div class="ftr-social-head"> 
+                <h5>Follow Us</h5>
+              </div>
+              <ul class="ulc clearfix">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-facebook-official"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="ftr-newsletter">
+              <div class="ftr-newsletter-head"> 
+                <h5>BE THE FIRST TO KNOW. SIGN UP FOR OUR NEWSLETTER.</h5>
+              </div>
+              <div class="ftr-newsletter-main"> 
+                <form class="" action="">
+                  <div class="from-group">
+                    <input class="Subs-fill">
+                    <button><span></span></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="ftr-btm-con clearfix"> 
+            <div class="ftr-btm-left"> 
+              <ul class="ulc clearfix"> 
+                <li>
+                  <a href="#">DISCLAIMER</a>
+                </li> 
+                <li>
+                  <a href="#">PRIVACY POLICY</a>
+                </li> 
+                <li>
+                  <a href="#">COOKIES POLICY</a>
+                </li> 
+                <li>
+                  <a href="#">TERMS & CONDITIONS</a>
+                </li> 
+              </ul>
+            </div>
+            <div class="ftr-btm-rgt"> 
+              <p><span>-</span> COPYRIGHT © 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-select.js"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
+<script src="assets/slick.slider/slick.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBHGhdEW-qtkQ_6LrsrftdX4aXa7W58c_Y"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/validator.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
