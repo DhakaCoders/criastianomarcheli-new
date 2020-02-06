@@ -114,7 +114,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    bottom: -68px;
+    bottom: 4px;
     width: 105px;
     opacity: 0.83;
     background-color: rgba(0, 0, 0, 0.8);
@@ -420,10 +420,10 @@ a.pop-up-link:hover{
 }
 .summer-product-grid-des {
     position: relative;
-    padding: 48px 10px 40px;
+    padding: 25px 10px 40px;
 }
 .summer-product-grid-head h3 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .summer-product-grid-head h3 a {
     font-weight: 500;
@@ -463,6 +463,7 @@ a.pop-up-link:hover{
 .summer-product-grid span{
 	display: block;
 	line-height: 20px;
+	margin-bottom: 12px;
 }
 .summer-product-grid-des{
 	text-align:center;
@@ -504,7 +505,7 @@ a.pop-up-link:hover{
 	max-width:30px;
 }
 .summer-collection-lnc{
-	padding-top: 40px;
+	padding-top: 45px;
 }
 .summer-collection-lnc a{
 	display: inline-block;

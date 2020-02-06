@@ -4,7 +4,7 @@ Commons
 *, *:focus,.btn,.btn:focus{
 	outline: 0!important;
 	text-decoration: none;
-} 
+}  
 a, button, input{
 	outline: 0;
 	border: 0;
