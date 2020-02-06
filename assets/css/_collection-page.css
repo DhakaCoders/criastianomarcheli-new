@@ -17,8 +17,8 @@
 }
 
 #discover-collection .summer-collection-lnc a:hover::after {
-    left: 50%;
-    bottom: -5px;
+  left: 50%;
+  bottom: -5px;
 }
 #discover-collection .summer-collection-main > ul {
   margin-left: -12px;
