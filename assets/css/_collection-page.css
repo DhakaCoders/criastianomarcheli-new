@@ -1,0 +1,136 @@
+#discover-collection{
+  padding-bottom: 145px;
+}
+
+#discover-collection .summer-product-grid {
+  margin-bottom: 27px;
+}
+
+#discover-collection .summer-collection-lnc a {
+  padding-bottom: 70px;
+}
+#discover-collection .summer-collection-lnc a::after {
+  background: url('../images/load-more-lnc.svg')no-repeat;
+  width: 15px;
+  height: 42px;
+  background-size: 100% 100%;
+}
+
+#discover-collection .summer-collection-lnc a:hover::after {
+    left: 50%;
+    bottom: -5px;
+}
+#discover-collection .summer-collection-main > ul {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+#discover-collection .summer-collection-main > ul > li {
+  float: left;
+  width: 33.33%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+
+}
+
+@media(max-width: 991px){
+
+}
+
+@media(max-width: 767px){
+
+}
+@media(max-width: 639px){
+
+}
+
+@media(max-width: 575px){
+
+}
+
+@media(max-width: 479px){  
+
+}
+
+@media(max-width: 359px){
+
+}
+
+

@@ -1,0 +1,17 @@
+  
+.sitemap{
+  max-width: 800px;
+  margin: 0 auto;
+  padding:100px 0;
+}
+.sitemap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sitemap ul ul {
+   margin-left: 30px;
+  padding-top: 12px;
+}
+
