@@ -166,6 +166,12 @@
   #discover-collection .summer-collection-lnc {
     padding-top: 25px;
   }
+  #discover-collection .summer-collection-lnc {
+    padding-top: 20px;
+  }
+  #discover-collection .summer-collection-lnc a {
+    padding-bottom: 48px;
+  }
 }
 @media(max-width: 639px){
 
