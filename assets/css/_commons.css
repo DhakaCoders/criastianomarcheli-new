@@ -1,5 +1,5 @@
 /**
-Commons
+Commons 
 */
 *, *:focus,.btn,.btn:focus{
 	outline: 0!important;
@@ -17,7 +17,7 @@ a, a:hover, a:focus, button:hover, button:focus{
 	outline: 0;
 }
 
-body {
+body {    
     background: #ffffff;
     color: #000000;
     font-size: 15px;

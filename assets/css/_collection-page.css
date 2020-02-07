@@ -1,11 +1,20 @@
+
+
+
+
+
+
+
+
+
+
 #discover-collection{
+  padding-top: 117px;
   padding-bottom: 145px;
 }
-
 #discover-collection .summer-product-grid {
-  margin-bottom: 27px;
+    margin-bottom: 40px;
 }
-
 #discover-collection .summer-collection-lnc a {
   padding-bottom: 70px;
 }
@@ -15,7 +24,6 @@
   height: 42px;
   background-size: 100% 100%;
 }
-
 #discover-collection .summer-collection-lnc a:hover::after {
   left: 50%;
   bottom: -5px;
@@ -26,73 +34,87 @@
 }
 #discover-collection .summer-collection-main > ul > li {
   float: left;
-  width: 33.33%;
+  width: 33.333%;
   padding-left: 12px;
   padding-right: 12px;
+}
+#discover-collection .summer-collection-main > ul > li:nth-child(3n+1) {
+  clear: left;
+}
+
+
+#discover-collection .summer-collection-top-des {
+  padding-bottom: 35px;
+}
+#discover-collection .summer-collection-top-des h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+#discover-collection .summer-collection-top-des p{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+#discover-collection .summer-product-grid-des h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#discover-collection .summer-product-grid-des h5 a{
+  color: #000;
+  display:inline-block;
+  vertical-align: baseline;
+  position: relative;
+  padding-bottom: 2px;
+}
+.collections-grd-des h5 a::after {
+  border-bottom: 3px solid #000;
+  content: "";
+  display: block;
+  height: 3px;
+  left: -2px;
+  position: absolute;
+  top: 100%;
+  transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  -webkit-transform: scale(0, 1);
+  transform-origin: center center 0;
+  -ms-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  width: 100%;
+}
+.collections-grd-des h5 a:hover::after {
+  transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
+#discover-collection .summer-product-grid-des span {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 8px;
+}
+#discover-collection .summer-product-grid-des {
+  padding: 28px 10px 40px;
+}
+#discover-collection .summer-collection-lnc {
+    padding-top: 55px;
+}
+#gipsy-dreams{
+  padding: 68px 0 130px;
+}
 
 @media(max-width: 1499px){
 
@@ -107,22 +129,59 @@
 }
 
 @media(max-width: 1199px){
-
+  #gipsy-dreams {
+    padding: 70px 0;
+  }
 }
 
 @media(max-width: 991px){
-
+  #discover-collection .summer-product-grid {
+      margin-bottom: 25px;
+  }
+  #discover-collection .summer-product-grid-des {
+      padding: 25px 10px 30px;
+  }
 }
 
 @media(max-width: 767px){
-
+  #discover-collection .summer-collection-main > ul > li:nth-child(3n+1) {
+    clear: initial;
+  }
+  #discover-collection .summer-collection-main > ul > li:nth-child(2n+1) {
+    clear: left;
+  }
+  #discover-collection .summer-collection-main > ul > li {
+    width: 50%;
+  }
+  #discover-collection .summer-product-grid-des {
+    padding: 22px 10px 25px;
+  }
+  #discover-collection {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  #gipsy-dreams {
+    padding: 45px 0;
+  }
+  #discover-collection .summer-collection-lnc {
+    padding-top: 25px;
+  }
 }
 @media(max-width: 639px){
 
 }
 
 @media(max-width: 575px){
-
+  #discover-collection .summer-collection-main > ul > li:nth-child(2n+1) {
+    clear: initial;
+  }
+  #discover-collection .summer-collection-main > ul > li {
+    width: 100%;
+    float: none;
+  }
+  #gipsy-dreams {
+    padding: 30px 0;
+  }
 }
 
 @media(max-width: 479px){  
