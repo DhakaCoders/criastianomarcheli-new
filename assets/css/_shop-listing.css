@@ -2,7 +2,7 @@
  
   
 .shop-listing-inner{
-	padding: 65px 0;
+	padding: 65px 0 60px;
 }
 .shop-listing-left-sidebar{ 
 	float: left;
@@ -54,8 +54,15 @@
   margin: 0 18px;
   display: inline-block;
 }
+.page-pagination li:first-child {
+  margin-left:0;
+  margin-right: 25px; 
+}
 .page-pagination li:last-child {
-  margin-right:0;
+  margin:0;
+}
+.page-pagination li:nth-last-child(2){
+  margin-right:10px;
 }
 .page-pagination a {
   display: inline-block;
@@ -70,30 +77,44 @@
   -ms-transition: all .3s ease;
   transition: all .3s ease;
 }
-.page-pagination li:hover a {
-  color: #000;
-}
+.page-pagination li:hover a,
 .page-pagination li.active a{
   color: #000;
-  font-weight: 800;
 }
+.page-pagination li:first-child a,
 .page-pagination li:last-child a {
   position: relative;
   display: inline-block;
   min-width: 52px;
 }
-.page-pagination li:last-child a::after{
+.page-pagination li:first-child a::after{
   content:'';
   position: absolute;
   left: 0;
-  bottom: 0;
-  background: url(../images/pagination-inc.svg)no-repeat;
-  background-size: 100% auto;
-  width: 50px;
+  bottom: -2px;
+  background: url(../images/pagination-inc-prev.svg)no-repeat;
+  background-size: 100% 100%;
+  width: 52px;
   height: 18px;
   -ms-transition:all .3s ease;
   -webkit-transition:all .3s ease;
   transition:all .3s ease;
+}
+.page-pagination li:first-child a:hover::after{
+  left:-5px;
+}
+.page-pagination li:last-child a::after{
+  content:'';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background: url(../images/pagination-inc-next.svg)no-repeat;
+  background-size: 100% 100%;
+  width: 52px;
+  height: 18px;
+  -ms-transition:all .3s ease;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;  
 }
 .page-pagination li:last-child a:hover::after{
 	left:5px;

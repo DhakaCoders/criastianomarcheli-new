@@ -1,5 +1,5 @@
 /* Sitemap  */
-.sitemap{
+.sitemap{ 
   max-width: 800px;
   margin: 0 auto;
   padding:100px 0;
@@ -13,11 +13,9 @@
    margin-left: 30px;
   padding-top: 12px;
 }
-
 .sitemap ul li {
   padding: 10px 0;
 }
-
 .sitemap ul li a {
   display: inline-block;
   vertical-align: baseline;
@@ -71,9 +69,10 @@
     padding-right: 15px;
 }
 .page-banner-des-inner {
-    padding: 215px 0;
+    /* padding: 215px 0; */
     position: relative;
     z-index: 2;
+    min-height: 470px;
     text-align: center;
 }
 strong.banner-page-title, 
@@ -90,12 +89,12 @@ h1.banner-page-title {
     color: #ffffff;
 }
 .front-page-banner .front-page-des-inner{
-    min-height: 991px!important;
+    min-height: 850px!important;
     position: relative;
 }
 .front-page-banner .front-page-des-inner .front-page-des-inner-line {
     position: absolute;
-    bottom: 37px;
+    bottom: 0;
     left: 50%;
     -ms-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);

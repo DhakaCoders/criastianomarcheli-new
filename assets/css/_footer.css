@@ -70,7 +70,7 @@
 .footer-top-col{
 	float: left;
 	padding: 3px 10px 30px;
-	border-right: 2px solid #c8c8c8;
+	border-right: 1px solid #fff;
 	text-align: center;
 }
 .footer-top-col-1{
@@ -106,7 +106,7 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 0;
-    padding-bottom: 23px;
+    padding-bottom: 0;
 	font-size: 15px;
 	letter-spacing: 6.81818px;
 	text-transform: uppercase;
@@ -119,18 +119,23 @@
 .ftr-social-head h5 span {
 	display: inline-block;
 	vertical-align: baseline;
+	position: relative;
+	padding-bottom: 32px;
 }
-.ftr-social-head h5 span:after{
+.ftr-social-head h5 span::after{
 	content: "";
 	position: absolute;
-	width:40px;
-	height: 2px;
-	background: #545454;
-	left:0;
+	width:60px;
+	height: 1px;
+	background: #000;
+	left:50%;
 	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 .ftr-social ul{
-	padding: 27px 0
+	padding: 27px 0 20px;
 } 
 .ftr-social li {
     float: left;
@@ -155,12 +160,12 @@
 .ftr-newsletter {
     float: left;
     width: 68%;
-    padding: 27px 0 7px 70px;
+    padding: 27px 0 0 70px;
     border-left: 2px solid #545454;
 }
 .ftr-newsletter-head {
     text-transform: uppercase;
-    padding-bottom: 15px;
+    padding-bottom: 45px;
 }
 
 .ftr-newsletter-main .from-group{
@@ -218,7 +223,7 @@
 	left: 60%;	
 }
 .ftr-btm-con {
-    padding: 33px 0 35px;
+    padding: 33px 0 42px;
     margin-right: -30px;
     margin-left: 0;
 }

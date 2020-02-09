@@ -30,6 +30,11 @@ if( $('.nav-opener').length ){
 };
 
 
+//matchHeightCol
+if($('.mHc').length){
+  $('.mHc').matchHeight();
+};
+
 //Fixed header
 /*
 window.onscroll = function(){
@@ -325,7 +330,7 @@ if( $('a.btm-des-down-lnc').length ){
     e.preventDefault();
     var goto = $(this).attr('href');
     $('html, body').animate({
-        scrollTop: $(goto).offset().top - 0
+        scrollTop: $(goto).offset().top - 20
     }, 800);
   });
 };
