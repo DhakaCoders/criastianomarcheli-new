@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
   <title>Shipping</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -143,8 +143,7 @@
                     <div class="hdr-cart-toggle-menu-ftr text-center">
                       <a href="#">ΟΛΟΚΛΗΡΩΣΗ ΠΑΡΑΓΓΕΛΙΑΣ</a>
                     </div>
-                  </li>       
-                                                
+                  </li>
                 </ul>                    
               </div>
             </div>
@@ -202,33 +201,33 @@
   </div>
 </section>
 
-
 <section  class="shipping-sec">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <div class="col-sm-12">
-          <div class="form-hdr-title">
-            <h2>cart</h2>
-          </div>
+        <div class="form-hdr-title">
+          <h2>Cart</h2>
         </div>
+      </div>
+      <div class="col-sm-12">
         <div class="shipping-sec-inr container-inner clearfix"> 
           <div class="tab-btn-wrp"> 
             <div class="estimated-block clearfix">
                 <span class="estimated-label">Estimated Total</span>
                 <span class="estimated-price">285.00€</span>
             </div>
-            <ul class="ulc clearfix">
-              <li class="active-1">
-                <span>1 Shipping</span>
-              </li>
-              <li class="active-2">
-                <span>2 Review & Payments</span>
-              </li>
-            </ul>
+            <div class="tab-btn-wrp-innr">
+                <ul class="ulc clearfix">
+	              <li class="active-1">
+	                <span><strong>1</strong>Shipping</span>
+	              </li>
+	              <li class="active-2">
+	                <span><strong>2</strong>Review & Payments</span>
+	              </li>
+	            </ul>        	
+            </div>	
           </div>
           <div class="ship-ord-smry">
-
             <div class="order-sumry-rgt-con">
               <div class="order-sumry-rgt-innr">
                 <h5>Order Summary</h5>
@@ -252,29 +251,28 @@
               </div>
             </div>
           </div> 
-
           <div class="shipping-sec-form-main">
             <div class="shipping-sec-form">
               <div class="contact-info">
                 <form id="shipping" id="shipping" data-toggle="validator" role="form" method="post">
                   <div class="sb-input-wrap clearfix">
                     <div class="sb-input form-group">
-                      <label for="Όνομα">Όνομα</label>
-                      <input type="text" id="Όνομα" required />
+                      <label for="Name">Name</label>
+                      <input type="text" id="Name" required />
                     </div>
                     <div class="sb-input form-group">
-                      <label for="Κώδικός">Κώδικός</label>
-                      <input type="text" id="Κώδικός" required />
+                      <label for="Surname">Surname</label>
+                      <input type="text" id="Surname" required />
                     </div>
                   </div>                
                   <div class="form-group form-group-wrp">
-                    <label for="ιεύθυνση">Διεύθυνση - Αριθμός </label>
-                    <input type="text" id="ιεύθυνση" required />
+                    <label for="Address">Address - Number</label>
+                    <input type="text" id="Address" required />
                   </div>                
                   <div class="sb2-input-wrap clearfix">
                     <div class="sb-input-1 form-group">
-                      <label for="Πόλη">Πόλη</label>
-                      <input type="text" id="Πόλη" required />
+                      <label for="Town">Town</label>
+                      <input type="text" id="Town" required />
                     </div>
                     <div class="sb-input-2 form-group">
                       <label for="ΤΚ">ΤΚ</label>
@@ -287,12 +285,12 @@
                       <input type="email" id="Email" required />
                     </div>
                     <div class="sb-input form-group">
-                      <label for="Τηλέφωνο">Τηλέφωνο</label>
-                      <input type="text" id="Τηλέφωνο" required />
+                      <label for="Telephone">Telephone Number</label>
+                      <input type="text" id="Telephone" required />
                     </div>
                   </div>
-                  <div class="form-group-wrap input-submit-group clearfix">
-                    <input type="submit" value="εισοδοσ" />
+                  <div class="form-group-wrap input-submit-group clearfix text-right">
+                    <input type="submit" value="next" />
                   </div>
                 </form> 
                 <form id="payment" method="post">

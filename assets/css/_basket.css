@@ -384,15 +384,17 @@
     -ms-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 20px;
-	text-align: center;
-	letter-spacing: 7.27273px;
-	text-transform: uppercase;
-	color: #FFFFFF;
-
-
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 7.27273px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.contact-info .oder-btn button,
+.contact-info button.apply-discount-btn{
+    letter-spacing: 1px;
 }
 .contact-info .oder-btn button,
 .contact-info button.apply-discount-btn{

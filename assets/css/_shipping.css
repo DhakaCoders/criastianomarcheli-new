@@ -8,42 +8,76 @@
 }
 .tab-btn-wrp{
 	overflow: hidden;
-	padding: 31px 0 30px;
+	padding: 0 0 30px;
+}
+.tab-btn-wrp-innr{
+	max-width: 725px
 }
 .tab-btn-wrp ul{
-	margin-left: -16px;
-	margin-right: -16px;
-	max-width: 738px;
+	margin-left: -15px;
+	margin-right: -15px;
+	max-width: 400px;
+	display: table;
+	margin: 0 auto;
 }
 .tab-btn-wrp ul li{
 	width:50%;
 	float: left;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	min-width: 200px;
 }
 .tab-btn-wrp ul li span{
 	display: block;
-	border:1px solid #efefef;
-	padding: 14px 30px;
-	background: #fff;
+	position: relative;
+	padding-bottom: 20px;
+	font-weight: 700;
 	font-size: 13px;
-	font-weight: 800;
-	color: #000
-}
-.tab-btn-wrp ul li.active-1 span,
-.tab-btn-wrp.step2 ul li.active-2 span{
-	border-color: #000;
-	background: #000;
-	color: #fff
+	line-height: 15px;
+	color: #C2C2C2;
 }
 
-.tab-btn-wrp.step2 ul li.active-1 span{
-	border-color:  #efefef;
-	background: transparent;
+.tab-btn-wrp ul li span::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 8px;
+	background: #959595;
+	border-radius: 4.5px;
+	z-index: 2;
+}
+.tab-btn-wrp ul li span > strong{
+	font-weight: 700;
+	padding-right: 4px;
 	color: #000;
 }
 
+.tab-btn-wrp ul li.active-1 span,
+.tab-btn-wrp.step2 ul li.active-2 span{
+	color: #5E5E5E;
+}
 
+.tab-btn-wrp.step1 ul li.active-1 span::after{
+	background: #000;
+}
+
+/* .tab-btn-wrp.step2 ul li span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    background: 
+    #959595;
+    border-radius: 4.5px;
+    z-index: 2;
+} */
 
 .shipping-sec-form {
     padding: 38px 45px 60px;
