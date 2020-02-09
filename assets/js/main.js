@@ -447,6 +447,7 @@ End checkout
 
 $('.busket-apply-discount').on('click', function(){
   $(this).next('.bdcode').slideToggle(300);
+  $(this).toggleClass('active');
 });
 
 

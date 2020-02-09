@@ -178,17 +178,29 @@
 
 
 
-<section class="page-banner" id="page-banner-2">
+<section class="page-banner page-banner-2" id="breadcrumbs-page-bnr">
   <div class="page-banner-controller" style="position: relative; overflow: hidden;">
-    <div class="page-banner-bg" style="background-image:url(assets/images/page-banner.jpg);"></div>
+    <div class="page-banner-bg animate-banner" style="background-image:url(assets/images/product-page-banner.jpg);"></div>
     <div class="page-banner-des-inner">
-      <strong class="banner-page-title hide-title">Lorem Ipsum</strong>
-      <div class="page-banner-ftr">
-        
+      <strong class="banner-page-title hide-title">Shop</strong>
+    </div>
+  </div>
+  <div class="page-banner-btm-des">
+    <div class="page-banner-btm-des-innr"> 
+      <div class="page-banner-btm-des-single">
+        <a class="btm-des-down-lnc" href="#single-product">
+          <img class="resize" src="assets/images/page-bnr-btm-des-inc.svg" alt="">
+        </a>
+        <div class="breadcrumbs">
+          <ul>           
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</section><!-- end of page-banner -->
+</section>
 
 
 <section class="registration-ed-sec">
@@ -196,61 +208,63 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="form-hdr-title">
-          <h1>Registration</h1>
+          <h2>Registration</h2>
         </div>
       </div>
       <div class="col-sm-12">
-        <div class="ed-dft-field-grd-controller clearfix">
-          <div class="ed-dft-field-grd-lft">
+        <div class="ed-dft-field-grd-controller clearfix" id="ed-dft-field-grd-reg">
+          <div class="ed-dft-field-grd-reg-con">
+
             <div class="ed-dft-form-controller">
-              <div class="ed-dft-form-entry-hdr">
-                  <strong>Έχετε ήδη λογαριασμό</strong>
-                  <p>Βάλτε τα στοιχεία σας παρακάτω:</p>
-              </div>
               <form>
                 <div class="ed-dft-2-grd-wrap clearfix">
-                  <div class="ed-dft-grd-col pdbtm-35">
+                  <div class="ed-dft-grd-col">
                     <label>First Name</label>
                     <input type="text" name="">
                   </div>
-                  <div class="ed-dft-grd-col pdbtm-35">
+                  <div class="ed-dft-grd-col">
                     <label>Last Name</label>
                     <input type="text" name="">
                   </div>
                 </div>
                 <div class="ed-dft-2-grd-wrap clearfix">
-                  <div class="ed-dft-grd-col pdbtm-35">
-                    <label>Phone</label>
-                    <input type="text" name="">
-                  </div>
-                  <div class="ed-dft-grd-col pdbtm-35">
+                  <div class="ed-dft-grd-col">
                     <label>EMAIL</label>
                     <input type="email" name="">
                   </div>
                 </div>
                 <div class="ed-dft-2-grd-wrap clearfix">
-                  <div class="ed-dft-grd-col pdbtm-35">
+                  <div class="ed-dft-grd-col">
                     <label>PASSWORD</label>
                     <input type="password" name="">
                   </div>
-                  <div class="ed-dft-grd-col pdbtm-35">
+                  <div class="ed-dft-grd-col">
                     <label>Confirm PASSWORD</label>
                     <input type="password" name="">
                   </div>
                 </div>
+
+                <div class="ed-dft-grd-checkBx">
+                  <label class="ed-dft-check">
+                    I accept that my data will be stored under the following conditions.
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="ed-dft-check">
+                    Sign up for Newslleter
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
                 <div class="ed-dft-form-submit-btn">
-                  <button>Είσοδος</button>
+                  <button>SIGNUP</button>
                 </div>
               </form>
             </div>
           </div>
-          <div class="ed-dft-field-grd-rgt">
-            <div class="ed-dft-create-account">
-              <strong>Δεν έχετε λογαριασμό</strong>
-              <p>Συμπληρώστε τη φόρμα και<br>
-                ολοκληρώστε την εγγραφή σας!</p>
-              <button> Δημιουργία λογαριασμ</button>
-            </div>
+
+          <div class="ed-dft-field-grd-reg-fb fb-acc-btn-wrp">
+            <a target="_blank" href="#">CONNECT WITH Facebook</a>
           </div>
         </div>
       </div>

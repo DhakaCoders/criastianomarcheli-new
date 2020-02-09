@@ -178,17 +178,29 @@
 
 
 
-<section class="page-banner" id="page-banner-2">
+<section class="page-banner page-banner-2" id="breadcrumbs-page-bnr">
   <div class="page-banner-controller" style="position: relative; overflow: hidden;">
-    <div class="page-banner-bg" style="background-image:url(assets/images/page-banner.jpg);"></div>
+    <div class="page-banner-bg animate-banner" style="background-image:url(assets/images/product-page-banner.jpg);"></div>
     <div class="page-banner-des-inner">
-      <strong class="banner-page-title hide-title">Lorem Ipsum</strong>
-      <div class="page-banner-ftr">
-        
+      <strong class="banner-page-title hide-title">Shop</strong>
+    </div>
+  </div>
+  <div class="page-banner-btm-des">
+    <div class="page-banner-btm-des-innr"> 
+      <div class="page-banner-btm-des-single">
+        <a class="btm-des-down-lnc" href="#single-product">
+          <img class="resize" src="assets/images/page-bnr-btm-des-inc.svg" alt="">
+        </a>
+        <div class="breadcrumbs">
+          <ul>           
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</section><!-- end of page-banner -->
+</section>
 
 
 <section  class="login-signin-sec">
@@ -197,18 +209,23 @@
       <div class="col-sm-12">
         <div class="login-signin-inner-wrp container-inner clearfix"> 
           <div class="row">
+            <div class="col-sm-12">
+              <div class="form-hdr-title">
+                <h2>Account</h2>
+              </div>
+            </div>
             <div class="col-sm-4 col-md-3">
+
               <div class="btn-767 show-xs">
                  <button type="button" class="">Profile</button>
               </div>
               <div class="login-signin-sidebar"> 
                 <ul class="ulc">
-                  <li><a href="profile-my-account.html">Ο ΛΟΓΑΡΙΑΣΜΟΣ ΜΟΥ</a></li>
-                  <li><a href="profile-personal-information.html">Προσωπικα στοιχεια</a></li>
-                  <li><a href="profile-my-orders.html">Παραγγελιες</a></li>
-                  <li><a href="#">Ιστορικο</a></li>
-                  <li><a href="#">Πληρωμες</a></li>
-                  <li><a href="profile-newsletter-subscriptions.html">Newsletter</a></li>
+                  <li class="active"><a href="profile-my-account.html">MY ACCOUNT</a></li>
+                  <li><a href="profile-personal-information.html">ORDERS</a></li>
+                  <li><a href="profile-my-orders.html">ADDRESS BOOK</a></li>
+                  <li><a href="#">ACCOUNT INFORMATION</a></li>
+                  <li><a href="#">Newsletter</a></li>
                 </ul>
               </div>
             </div>
@@ -216,52 +233,70 @@
               <div class="login-signin-form profile-login-signup-controller">
                 <form>
                   <div class="login-form contact-info"> 
-                    <span class="from-spn">Εγγεγραμμενο μελος</span>
-                      <div class="sb-input-wrap clearfix">
-                        <div class="sb-input form-group">
-                          <label for="mail">Ε-mail</label>
-                          <input type="text" id="mail" required />
-                        </div>
-                        <div class="sb-input form-group">
-                          <label for="Κώδικός">Κώδικός</label>
-                          <input type="text" id="Κώδικόςe" required />
-                        </div>
-                      </div>                
-                      <div class="form-group-wrap input-submit-group clearfix">
-                        <input type="submit" value="εισοδοσ">
+                    <span class="from-spn">ALREADY A MEMBER</span>
+                    <div class="sb-input-wrap clearfix">
+                      <div class="sb-input form-group">
+                        <label for="mail">Ε-mail</label>
+                        <input type="text" id="mail" required />
                       </div>
+                      <div class="sb-input form-group">
+                        <label for="Κώδικός">Password</label>
+                        <input type="text" id="Κώδικόςe" required />
+                      </div>
+                    </div>                
+                    <div class="form-group-wrap input-submit-group clearfix">
+                      <input type="submit" value="LOGIN">
+                    </div>
                   </div>           
                   <div class="from-dvr">
                     <div class="from-dvr-inr"></div>
                   </div>
                   <div class="signin-form contact-info">
-                    <span class="from-spn">Δημιουργηστε ενα Λογαριασμο</span>
+                    <span class="from-spn">CREATE AN ACCOUNT</span>
                       <div class="sb-input-wrap clearfix">
                         <div class="sb-input form-group">
-                          <label for="email">Email</label>
+                          <label for="Κώδικός">Fisrt Name</label>
+                          <input type="text" id="Κώδικός" required>
+                        </div>
+                        <div class="sb-input form-group">
+                          <label for="eπιβεβαίωση">Last Name</label>
+                          <input type="text" id="eπιβεβαίωση" required>
+                        </div>
+                      </div>
+                      <div class="sb-input-wrap clearfix">
+                        <div class="sb-input form-group">
+                          <label for="email">Ε-mail</label>
                            <input type="email" id="email" required />
                         </div>
                       </div>
                       <div class="sb-input-wrap clearfix">
                         <div class="sb-input form-group">
-                          <label for="Κώδικός">Κώδικός</label>
+                          <label for="Κώδικός">Password</label>
                           <input type="text" id="Κώδικός" required>
                         </div>
                         <div class="sb-input form-group">
-                          <label for="eπιβεβαίωση">Επιβεβαίωση Κωδικού</label>
+                          <label for="eπιβεβαίωση">Password</label>
                           <input type="text" id="eπιβεβαίωση" required>
                         </div>
                       </div>
-                      <div class="form-group-wrap checkbox-wrp clearfix">
-                        <input type="checkbox" id="aποδέχομαι">
-                        <label for="aποδέχομαι"> Αποδέχομαι πως τα στοιχεία μου θα αποθηκευθούν σύμφωνα με τους εξής όρους.</label>
+                      <div class="ed-dft-grd-checkBx">
+                        <label class="ed-dft-check">
+                          I accept that my data will be stored under the following conditions.
+                          <input type="checkbox">
+                          <span class="checkmark"></span>
+                        </label>
                       </div>
                       <div class="form-group-wrap input-submit-group clearfix">
-                        <input type="submit" value="εγγραφη">
+                        <input type="submit" value="SIGNUP">
                       </div>
                   </div>
                 </form>
               </div>
+
+              <div class="ed-dft-field-grd-log-fb fb-acc-btn-wrp">
+                <a href="#">CONNECT WITH Facebook</a>
+              </div>
+
             </div>
           </div>
         </div>          

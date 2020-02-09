@@ -3,6 +3,7 @@
 	width: 60%;
 	background: #F5F5F5;
 	padding-top: 30px;
+	padding: 50px 42px 70px;
 }
 .login-signin-sec{
 	overflow: hidden;
@@ -16,22 +17,25 @@
 .ed-dft-field-grd-rgt{
 	float: right;
 	width: 40%;
-	padding: 0 30px 0 70px;
+	padding-left: 118px;
 }
 .form-hdr-title{
-	padding: 50px 0 0 56px;
+	padding-top: 40px;
+	padding-bottom: 33px;
 }
-
-
-
-.form-hdr-title h1{
-	font-weight: 300;
-	margin: 0 0 35px 0;
-	text-transform: uppercase;
-}
-.contact-ed-sec .form-hdr-title h1{
+.form-hdr-title h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-bottom: 30px;
 	text-transform: initial;
+	line-height: 30px;
 }
+/* .contact-ed-sec .form-hdr-title h2 {
+	text-transform: initial;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 60px;
+} */
 .ed-dft-form-entry-hdr{
 	padding: 0 0 25px 56px;
 }
@@ -53,20 +57,21 @@
 .ed-dft-grd-col{
 	float: left;
 	width: 50%;
-	padding: 0 56px;
+	padding: 0 18px;
 }
 .ed-dft-grd-full{
-	padding: 0 56px;
+	padding: 0 18px;
 }
 .ed-dft-form-controller .ed-dft-grd-col label,
 .ed-dft-form-controller  .ed-dft-grd-full label{
 	display: block;
 	text-transform: uppercase;
-	font-weight: 300;
-	font-size: 13px;
-	line-height: 16px;
-	margin-bottom: 14px;
+	margin-bottom: 8px;
 	position: relative;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
 }
 
 .ed-dft-form-controller .ed-dft-grd-col label span,
@@ -80,14 +85,16 @@
 .ed-dft-form-controller input[type="password"],
 .ed-dft-form-controller input[type="text"]{
 	width: 100%;
-	background: #D8D8D8;
-	height: 31px;
-	border-radius: 8px; 
-	padding: 10px;
-	border: none;
+	background: #0000;
+	height: 40px;
+	border-radius: 0; 
+	padding: 12px;
+	border: 1px solid #979797;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+
+
 }
 .requered-txt{
 	background: #fff;
@@ -101,13 +108,13 @@
 }
 
 .ed-dft-grd-full textarea{
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	width: 100%;
-	background: #D8D8D8;
-	min-height: 191px;
+	background: #0000;
+	min-height: 103px;
 	resize: none;
-	border: none;
-	border-radius: 8px; 
+	border: 1px solid #979797;
+	border-radius:0; 
 	padding: 10px;
 }
 
@@ -132,39 +139,37 @@
 .course-forget-btn button:hover{
 	opacity: .6;
 }
+
+
+.ed-dft-form-submit-btn{
+	padding: 0 18px;
+	text-align: right;
+}
 .ed-dft-form-submit-btn button{
 	background: #000000;
-	color: #fff;
-	text-align: right;
-	padding: 0 90px 0 10px;
-	height: 51px; 
-	width: 100%;
-	position: relative;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 17px;
+	text-align: center;
+	padding: 15px 20px 15px 22px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 7.27273px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border: 2px solid #000;
 }
-.ed-dft-form-submit-btn button:after{
-	content: "\f0da";
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: normal;
-	text-decoration: inherit;
-	color: #fff;
-	font-size: 18px;
-	position: absolute;
-	top: 50%;
-	right: 60px;
-	position: absolute;
-	transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
+.ed-dft-form-submit-btn button:hover{
+	background: #0000;
+	color: #000;
 }
-.ed-dft-form-submit-btn button:hover:after{
-	right: 55px;
+.ed-dft-grd-necessary span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
+	margin-bottom: 25px;
 }
 .ed-dft-create-account{
 	background: #000000;
@@ -277,14 +282,360 @@
 }
 
 .contact-ed-sec {
-	padding-bottom: 60px;
+	padding-bottom: 212px;
 }
 .registration-ed-sec {
-	padding-bottom: 30px;
+	padding-bottom: 120px;
 }
 .login-ed-sec {
 	padding-bottom: 30px;
 }
+
+
+.ed-dft-contact-map{
+	margin-bottom: 100px;
+}
+.ed-dft-contact-map-top h4,
+.ed-dft-contact-map-top h4{
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 43px;
+	letter-spacing: 6.81818px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 22px;
+}
+.ed-dft-contact-map-top h4 span,
+.ed-dft-contact-map-top h4 span{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-bottom: 23px;
+	position: relative;
+}
+.ed-dft-contact-map-top h4 span::after,
+.ed-dft-contact-map-top h4 span::after{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 2px;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: #000000;
+}
+
+.forgot-pass-lnc a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 5.45455px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+
+
+
+
+.ed-dft-contact-social ul{
+	display: table;
+	margin: auto;
+} 
+.ed-dft-contact-social li {
+    float: left;
+    padding: 0 18px;
+}
+.ed-dft-contact-social li:first-child{
+	padding-left: 0;
+}
+.ed-dft-contact-social li a {
+    color: #000;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.ed-dft-contact-social li a:hover {
+	opacity: .6
+}
+.ed-dft-contact-social li a i {
+    color: #000;
+    margin-right: 0px;
+    font-size: 36px;
+}
+
+
+
+
+#ed-dft-field-grd-login .ed-dft-form-entry-hdr strong{
+	display: block;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 25px;
+	color: #000000;
+}
+#ed-dft-field-grd-login .ed-dft-form-entry-hdr {
+    padding: 0;
+    padding-bottom: 56px;
+    padding-left: 18px;
+}
+#ed-dft-field-grd-login .ed-dft-field-grd-lft {
+    float: left;
+    width: 46.25%;
+    background: #F5F5F5;
+    padding-top: 30px;
+    padding: 40px 38px 60px 25px;
+    min-height: 495px;
+}
+#ed-dft-field-grd-login .ed-dft-field-grd-rgt {
+    float: right;
+    width: 53.75%;
+    padding-left: 65px;
+
+}
+
+#ed-dft-field-grd-login .ed-dft-grd-full{
+	margin-bottom: 40px;
+}
+
+#ed-dft-field-grd-login .forgot-pass-lnc{
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 22px;
+}
+
+
+
+
+#ed-dft-field-grd-reg .ed-dft-field-grd-reg-con{
+	background: #F5F5F5;
+	padding: 72px 170px 30px 120px;
+	margin-bottom: 25px;
+}
+#ed-dft-field-grd-reg .ed-dft-grd-col {
+    float: left;
+    width: 50%;
+    padding: 0 44px 20px;
+}
+
+#ed-dft-field-grd-reg .ed-dft-form-submit-btn {
+    padding: 0 44px;
+    text-align: right;
+}
+
+.ed-dft-grd-checkBx {
+    padding-top: 20px;
+    padding-left: 44px;
+}
+.ed-dft-check {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding-top: 5px;
+	padding-left: 35px;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
+	margin-bottom: 18px;
+}
+.ed-dft-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.ed-dft-check .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #0000;
+	border: 1px solid #979797;
+}
+.ed-dft-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.ed-dft-check .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.ed-dft-check input:checked ~ .checkmark::after {
+  display: block;
+}
+.ed-dft-check .checkmark::after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #979797;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ed-dft-field-grd-reg-fb{
+	background: #F5F5F5;
+	padding: 40px 20px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.fb-acc-btn-wrp a{
+	display: inline-block;
+	vertical-align: baseline;
+	background: #000;
+	padding: 16px 65px 16px 28px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 7.27273px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border: 2px solid #000;
+	position: relative;
+}
+.fb-acc-btn-wrp a::after{
+	content: "";
+	position: absolute;
+	background: url('../images/fb-contact-icon.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	width: 24px;
+	height: 24px;
+	right: 30px;
+	top: 14px;
+}
+.fb-acc-btn-wrp a:hover{
+	background: #c6c6c6;
+	color:#000 ;
+}
+
+
+
+
+
+#ed-dft-field-grd-forgot {
+height: 494px;
+background: #F5F5F5;
+padding: 20px 42px 20px; 
+}
+
+#ed-dft-field-grd-forgot .ed-dft-form-controller{
+	padding-left: 80px;
+	padding-right: 130px;
+}
+
+#ed-dft-field-grd-forgot .ed-dft-grd-col {
+    float: left;
+    width: 50%;
+    padding: 0 44px;
+}
+.ed-dft-form-reset-btn {
+	padding-top: 72px;
+}
+.ed-dft-form-reset-btn button{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 7.27273px;
+	text-transform: uppercase;
+	background: #000;
+	color: #FFFFFF;
+	border: 2px solid #000;
+	padding: 15px 53px;
+}
+.ed-dft-form-reset-btn button:hover{
+	background: #FFFFFF;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ed-dft-new-cust{
+	border: 2px solid #000000;
+	padding: 60px 20px 50px;
+	min-height: 495px;
+}
+
+.ed-dft-new-cust h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 40px;
+	color: #000000;
+	margin-bottom: 26px;
+}
+
+.ed-dft-new-cust p{
+	font-weight: 300;
+	line-height: 25px;
+	margin-bottom: 96px;
+}
+
+.ed-dft-new-cust a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 7.27273px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 14px 28px;
+	background: #000;
+	border: 2px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

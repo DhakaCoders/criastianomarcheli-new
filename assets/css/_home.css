@@ -1,5 +1,5 @@
 
-
+ 
 
 .cristiano-marcheli-sec{
 	padding: 130px 0 140px;
@@ -7,7 +7,7 @@
 .cristiano-marcheli-con {
     position: relative;
     min-height: 920px;
-}
+} 
 .cristiano-marcheli-con .col-sm-6{
 	position: static!important;
 }
@@ -25,7 +25,7 @@
 	display: none;
 }
 .cristiano-marcheli-des {
-    padding: 63px 0 40px 120px;
+    padding: 63px 0 40px 60px;
 }
 .cristiano-marcheli-des-main{
 	padding-bottom: 88px;
@@ -33,70 +33,49 @@
 .cristiano-marcheli-des h1 {
     font-family: 'Playfair Display', serif;
     line-height: 40px;
-    color: #000000;
 	margin-bottom: 48px;
-	font-size: 25pt;
 	font-weight: 700;
 }
 .cristiano-marcheli-des p{
-	font-size: 13pt;
-	font-weight: 300;
-	line-height: 32px;
-	letter-spacing: normal;
-	color: #000000;
 	margin-bottom: 28px;
-}
-.music-con{
-	padding-left: 70px;
-	position: relative;
-}
-.music-con img{
-	position: absolute;
-	left:0;
-	top: 0px
-}
-.music-con span{
-  font-size: 23px;
-  font-weight: 700;
-  line-height: 31px;
-  letter-spacing: 0.14px;
-  color: #000000;
-  font-weight: 300;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
 }
 .read-more-lnc {
-    padding-top: 118px;
-    text-align: center;
+    padding-top: 165px;
+    text-align: right;
 }
 .read-more-lnc a{
 	position: relative;
 	display: inline-block;
 	vertical-align: baseline;
-	text-transform: uppercase;
+	padding-bottom: 25px;
 	font-weight: 700;
+	font-size: 16px;
 	line-height: 25px;
-	letter-spacing: 8.18px;
+	letter-spacing: 7.27273px;
+	text-transform: uppercase;
 	color: #000000;
-	padding-bottom: 40px;
-    font-size: 18px;
 }
 .read-more-lnc a:after{
 	content:'';
 	position: absolute;
-	left: 50%;
+	right: 12px;
     bottom: 0;
     background: url(../images/read-more-lnc.svg)no-repeat;
     background-size: 100% auto;
     width: 55px;
     height: 20px;
-	-ms-transform: translateX(-50%);
+/* 	-ms-transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
+	transform: translateX(-50%); */
 	-ms-transition:all .3s ease;
 	-webkit-transition:all .3s ease;
 	transition:all .3s ease;
 } 
 .read-more-lnc a:hover:after{
-	left: 55%;
+	right:6px;
 }
 .style-book-sec{
 	position: relative;
@@ -327,7 +306,7 @@ a.pop-up-link:hover{
     margin-bottom: 32px;
 }
 .summer-collection-sec {
-    padding-top: 155px;
+    padding-top: 80px;
 }
 .summer-collection-inner{
 	max-width: 1480px;
@@ -342,39 +321,32 @@ a.pop-up-link:hover{
     text-align: center;
     max-width: 880px;
     margin: 0 auto;
-    padding-bottom: 32px;
+    padding-bottom: 42px;
 }
-.summer-collection-top-des h2, 
-.summer-collection-top-des h3 {
+.summer-collection-top-des h2 {
     font-family: 'Playfair Display', serif;
     line-height: 40px;
-    margin-bottom: 40px;
-    font-size: 25pt;
+    margin-bottom: 27px;
+    font-size: 35px;
     font-weight: 700;
 }
 .summer-collection-top-des p{
-	font-size: 13pt;
 	font-weight: 300;
-	line-height: 32px;
+	font-size: 16px;
+	line-height: 25px;
 }
 .summer-collection-main > ul {
-	margin-left: -9px;
-	margin-right: -9px;
+	margin-left: -11px;
+	margin-right: -11px;
 }
 .summer-collection-main > ul > li{
 	float: left;
 	width:33.33%;
-	padding-left: 9px;
-	padding-right: 9px;
+	padding-left: 11px;
+	padding-right: 11px;
 }
 .summer-collection-main > ul > li:nth-child(3n+1){
 	clear:left;
-}
-#home-summer-collection .summer-collection-main > ul > li:nth-child(3n+1) .summer-product-grid-des{
-	padding-left: 30%;
-}
-#home-summer-collection .summer-collection-main > ul > li:nth-child(3n+3) .summer-product-grid-des{
-	padding-right: 35%;		
 }
 
 .summer-product-grid{
@@ -426,12 +398,14 @@ a.pop-up-link:hover{
     margin-bottom: 15px;
 }
 .summer-product-grid-head h3 a {
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 6px;
     color: #000000;
     position: relative;
     text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+    line-height: 20px;
+	text-align: center;
+	letter-spacing: 4.8px;
 }
 .summer-product-grid-head h3 a::after {
     border-bottom: 3px solid #000;
@@ -462,8 +436,11 @@ a.pop-up-link:hover{
 }
 .summer-product-grid span{
 	display: block;
-	line-height: 20px;
-	margin-bottom: 12px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	line-height: 32px;
+	margin-bottom: 8px;
 }
 .summer-product-grid-des{
 	text-align:center;
@@ -505,7 +482,7 @@ a.pop-up-link:hover{
 	max-width:30px;
 }
 .summer-collection-lnc{
-	padding-top: 45px;
+	padding-top: 40px;
 }
 .summer-collection-lnc a{
 	display: inline-block;
@@ -583,24 +560,25 @@ a.pop-up-link:hover{
 
 
 .feed-sec{
-	padding: 110px 0 125px;
+	padding: 110px 0 130px;
 }
 .feed-sec .feed-sec-top-des{
 	position: relative;
 	text-align: center;
-} 
+}
 .feed-sec-top-des::after {
     content: "";
     position: absolute;
-    left: -35px;
+    left: 0;
     top: 50%;
-    width: 106%;
+    width: 100%;
     height: 1px;
     background: #979797;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 .feed-sec-top-des-innr{
 	background: #fff;
 	max-width: 485px;
@@ -608,20 +586,24 @@ a.pop-up-link:hover{
 	z-index: 2;
 	position: relative;
 }
-.feed-sec .feed-sec-top-des h3{
+.feed-sec .feed-sec-top-des h2{
 	font-family: 'Playfair Display', serif;
-	font-size: 40px;
-	line-height: 60px;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 40px;
 }
 .feed-sec .feed-sec-top-des span{
+	display: inline-block;
+	vertical-align: baseline;
 	font-weight: 700;
+	font-size: 16px;
 	line-height: 20px;
-	letter-spacing: 6.82px;
-	color: #000000;
+	text-align: center;
+	letter-spacing: 7.27273px;
 	text-transform: uppercase;
 }
 .feed-sec-gallery{
-	padding: 50px 0 42px;
+	padding: 20px 0 42px;
 }
 .feed-sec-gallery > ul{
 	margin-left: -8px;
@@ -856,12 +838,6 @@ a.pop-up-link:hover{
 	}
 	#pop-up-product .style-book-col {
 	    min-height: 820px;
-	}
-	#home-summer-collection .summer-collection-main > ul > li:nth-child(3n+1) .summer-product-grid-des{
-		padding-left: 10px!important;
-	}
-	#home-summer-collection .summer-collection-main > ul > li:nth-child(3n+3) .summer-product-grid-des{
-		padding-right: 10px!important;		
 	}
 	.pop-up-product-lft,
 	.pop-up-product-rgt {

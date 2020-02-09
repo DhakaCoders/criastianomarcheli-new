@@ -178,95 +178,96 @@
 
 
 
-<section class="page-banner" id="page-banner-2">
+<section class="page-banner page-banner-2" id="breadcrumbs-page-bnr">
   <div class="page-banner-controller" style="position: relative; overflow: hidden;">
-    <div class="page-banner-bg" style="background-image:url(assets/images/page-banner.jpg);"></div>
+    <div class="page-banner-bg animate-banner" style="background-image:url(assets/images/product-page-banner.jpg);"></div>
     <div class="page-banner-des-inner">
-      <strong class="banner-page-title hide-title">Lorem Ipsum</strong>
-      <div class="page-banner-ftr">
-        
+      <strong class="banner-page-title hide-title">Shop</strong>
+    </div>
+  </div>
+  <div class="page-banner-btm-des">
+    <div class="page-banner-btm-des-innr"> 
+      <div class="page-banner-btm-des-single">
+        <a class="btm-des-down-lnc" href="#single-product">
+          <img class="resize" src="assets/images/page-bnr-btm-des-inc.svg" alt="">
+        </a>
+        <div class="breadcrumbs">
+          <ul>           
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</section><!-- end of page-banner -->
+</section>
 
 
-<section  class="login-signin-sec">
+<section  class="login-signin-sec" id="personal-info-sec">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="login-signin-inner-wrp container-inner clearfix"> 
           <div class="row">
+            <div class="col-sm-12">
+              <div class="form-hdr-title">
+                <h2>Account</h2>
+              </div>
+            </div>
             <div class="col-sm-4 col-md-3">
               <div class="btn-767 show-xs">
                  <button type="button" class="">Profile</button>
               </div>
               <div class="login-signin-sidebar"> 
-                <ul class="ulc">
-                  <li><a href="profile-my-account.html">Ο ΛΟΓΑΡΙΑΣΜΟΣ ΜΟΥ</a></li>
-                  <li class="active"><a href="profile-personal-information.html">Προσωπικα στοιχεια</a></li>
-                  <li><a href="profile-my-orders.html">Παραγγελιες</a></li>
-                  <li><a href="#">Ιστορικο</a></li>
-                  <li><a href="#">Πληρωμες</a></li>
-                  <li><a href="profile-newsletter-subscriptions.html">Newsletter</a></li>
+                <ul class="ulc">                  
+                  <li><a href="profile-my-account.html">MY ACCOUNT</a></li>
+                  <li><a href="profile-personal-information.html">ORDERS</a></li>
+                  <li><a href="profile-my-orders.html">ADDRESS BOOK</a></li>
+                  <li class="active"><a href="#">ACCOUNT INFORMATION</a></li>
+                  <li><a href="#">Newsletter</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-sm-8 col-md-9">
-              <div class="logariasmos-right account-page-rgt-des-wrap">
+              <div class="logariasmos-right account-page-rgt-des-wrap" id="personal-info">
                 <div class="account-page-hdr">
-                  <h2>Edit Account Information</h2>
+                  <h6>Edit Account Information</h6>
                 </div>
                 <form>
                   <div class="account-fields-row">
                     <div class="profile-address-d2-wrap clearfix">
                       <div class="profile-address-d2">
-                        <h6>Account Information</h6>
                         <div class="new-add-address-fields">
                           <div>
                             <label>first name <span>*</span></label>
-                            <input type="text" name="" value="George">
+                            <input type="text" name="" value="IOANNA">
                           </div>
                           <div>
                             <label>last name <span>*</span></label>
-                            <input type="text" name="" value="Malamatlis">
+                            <input type="text" name="" value="BAROUTA">
                           </div>
                           <div class="account-info-check-fields subscription-option">
-                            <div class="filter-check-row clearfix">
-                              <input type="checkbox" id="change-eamil" name="change-eamil" value="YES">
-                              <span class="checkmark"></span> 
-                              <label for="change-eamil"> CHANGE EMAIL</label>
-                            </div>
-                            <div class="filter-check-row clearfix">
-                              <input type="checkbox" id="change-password" name="change-password" value="YES">
-                              <span class="checkmark"></span> 
-                              <label for="change-password"> CHANGE PASSWORD</label>
+                            <div class="ed-dft-grd-checkBx">
+                              <label class="ed-dft-check">
+                                CHANGE EMAIL
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                              </label>
+                              <label class="ed-dft-check">
+                                CHANGE PASSWORD
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                              </label>
                             </div>
                           </div>
                         </div>
-                        <div class="ap-btn hide-sm">
-                          <a class="" href="#">save</a>
-                        </div>
-                        <div class="required-notation hide-sm"><p>(*) Required Fields</p></div>
                       </div>
-                      <div class="profile-address-d2">
-                        <h6>Change Email</h6>
-                          <div class="new-add-address-fields">
-                            <div>
-                              <label>EMAIL <span>*</span></label>
-                              <input type="email" name="" value="info@loremipsum.com">
-                            </div>
-                            <div class="profile-password-field">
-                              <label>CURRENT PASSWORD <span>*</span></label>
-                              <input type="text" name="" value="**********">
-                            </div>
-                          </div>
-                          <div class="ap-btn show-sm">
-                            <a class="change-addresses-btn" href="#">save</a>
-                          </div>
-                          <div class="required-notation show-sm"><p>(*) Required Fields</p></div>
-                      </div>
+
                     </div>
+                    <div class="ppi-btn text-right">
+                      <a href="#">save</a>
+                    </div>
+
                   </div>
                 </form>
               </div>

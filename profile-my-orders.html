@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Orders</title>
+  <title>Orders</title> 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -178,21 +178,39 @@
 
 
 
-<section class="page-banner" id="page-banner-2">
+<section class="page-banner page-banner-2" id="breadcrumbs-page-bnr">
   <div class="page-banner-controller" style="position: relative; overflow: hidden;">
-    <div class="page-banner-bg" style="background-image:url(assets/images/page-banner.jpg);"></div>
+    <div class="page-banner-bg animate-banner" style="background-image:url(assets/images/product-page-banner.jpg);"></div>
     <div class="page-banner-des-inner">
-      <strong class="banner-page-title hide-title">Lorem Ipsum</strong>
-      <div class="page-banner-ftr">
-        
+      <strong class="banner-page-title hide-title">Shop</strong>
+    </div>
+  </div>
+  <div class="page-banner-btm-des">
+    <div class="page-banner-btm-des-innr"> 
+      <div class="page-banner-btm-des-single">
+        <a class="btm-des-down-lnc" href="#single-product">
+          <img class="resize" src="assets/images/page-bnr-btm-des-inc.svg" alt="">
+        </a>
+        <div class="breadcrumbs">
+          <ul>           
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</section><!-- end of page-banner -->
+</section>
+
 
 <section  class="login-signin-sec" id="overflow-none">
   <div class="container">
     <div class="row">
+      <div class="col-sm-12">
+        <div class="form-hdr-title">
+          <h2>Account</h2>
+        </div>
+      </div>
       <div class="col-sm-12">
         <div class="login-signin-inner-wrp container-inner clearfix"> 
           <div class="row">
@@ -200,91 +218,45 @@
               <div class="btn-767 show-xs">
                  <button type="button" class="">Profile</button>
               </div>
-              <div class="login-signin-sidebar"> 
-                <ul class="ulc">
-                  <li><a href="profile-my-account.html">Ο ΛΟΓΑΡΙΑΣΜΟΣ ΜΟΥ</a></li>
-                  <li><a href="profile-personal-information.html">Προσωπικα στοιχεια</a></li>
-                  <li class="active"><a href="profile-my-orders.html">Παραγγελιες</a></li>
-                  <li><a href="#">Ιστορικο</a></li>
-                  <li><a href="#">Πληρωμες</a></li>
-                  <li><a href="profile-newsletter-subscriptions.html">Newsletter</a></li>
+              <div class="login-signin-sidebar">
+                <ul class="ulc">                  
+                  <li><a href="profile-my-account.html">MY ACCOUNT</a></li>
+                  <li class="active"><a href="profile-personal-information.html">ORDERS</a></li>
+                  <li><a href="profile-my-orders.html">ADDRESS BOOK</a></li>
+                  <li><a href="#">ACCOUNT INFORMATION</a></li>
+                  <li><a href="#">Newsletter</a></li>
                 </ul>
               </div>
             </div>
             <div class="col-sm-8 col-md-9">
               <div class="logariasmos-right account-page-rgt-des-wrap">
-                <div class="account-page-hdr">
-                  <h2>My Orders</h2>
+                <div class="account-page-hdr tab-page-header">
+                  <h6>My Orders</h6>
                 </div>
-                <div class="account-fields-row">
+                <div class="account-fields-row tab-row-con">
                   <div class="address-book-option">
                     <form>
                       <div class="account-fields-row lbl-with-btn">
-                        <div class="recent-orders-tbl">
+                        <div class="recent-orders-tbl">                    
+                             
                           <table>
                             <tr>
                               <th class="tbl-col-1"><span>Order #</span></th>
                               <th class="tbl-col-2"><span>Date</span></th>
-                              <th class="tbl-col-3"><span>Ship To</span></th>
-                              <th class="tbl-col-4"><span>Order Total</span></th>
-                              <th class="tbl-col-5"><span>Status</span></th>
-                              <th class="tbl-col-6"><span>Action</span></th>
+                              <th class="tbl-col-3"><span>Estimated</span></th>
+                              <th class="tbl-col-4"><span>Delivery Date</span></th>
+                              <th class="tbl-col-5"><span>Ship To</span></th>
+                              <th class="tbl-col-6"><span>Order Total</span></th>
+                              <th class="tbl-col-7"><span>StatusAction</span></th>
                             </tr>
                             <tr>
-                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000116</span></td>
-                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>3/21/19</span></td>
-                              <td class="tbl-col-3"><span class="show-sm">Ship To</span><span>George</span></td>
-                              <td class="tbl-col-4"><span class="show-sm">Order Total</span><span>$229.80</span></td>
-                              <td class="tbl-col-5"><span class="show-sm">Status</span><span>Pending</span></td>
-                              <td class="tbl-col-6"><span class="show-sm">Action</span><span><a href="#">VIEW ORDER</a> | <a href="#">REORDER</a></span></td>
-                            </tr>
-                            <tr>
-                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000116</span></td>
-                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>3/21/19</span></td>
-                              <td class="tbl-col-3"><span class="show-sm">Ship To</span><span>George</span></td>
-                              <td class="tbl-col-4"><span class="show-sm">Order Total</span><span>$229.80</span></td>
-                              <td class="tbl-col-5"><span class="show-sm">Status</span><span>Pending</span></td>
-                              <td class="tbl-col-6"><span class="show-sm">Action</span><span><a href="#">VIEW ORDER</a> | <a href="#">REORDER</a></span></td>
-                            </tr>
-                            <tr>
-                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000116</span></td>
-                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>3/21/19</span></td>
-                              <td class="tbl-col-3"><span class="show-sm">Ship To</span><span>George</span></td>
-                              <td class="tbl-col-4"><span class="show-sm">Order Total</span><span>$229.80</span></td>
-                              <td class="tbl-col-5"><span class="show-sm">Status</span><span>Pending</span></td>
-                              <td class="tbl-col-6"><span class="show-sm">Action</span><span><a href="#">VIEW ORDER</a> | <a href="#">REORDER</a></span></td>
-                            </tr>
-                            <tr>
-                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000116</span></td>
-                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>3/21/19</span></td>
-                              <td class="tbl-col-3"><span class="show-sm">Ship To</span><span>George</span></td>
-                              <td class="tbl-col-4"><span class="show-sm">Order Total</span><span>$229.80</span></td>
-                              <td class="tbl-col-5"><span class="show-sm">Status</span><span>Pending</span></td>
-                              <td class="tbl-col-6"><span class="show-sm">Action</span><span><a href="#">VIEW ORDER</a> | <a href="#">REORDER</a></span></td>
-                            </tr>
-                            <tr>
-                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000116</span></td>
-                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>3/21/19</span></td>
-                              <td class="tbl-col-3"><span class="show-sm">Ship To</span><span>George</span></td>
-                              <td class="tbl-col-4"><span class="show-sm">Order Total</span><span>$229.80</span></td>
-                              <td class="tbl-col-5"><span class="show-sm">Status</span><span>Pending</span></td>
-                              <td class="tbl-col-6"><span class="show-sm">Action</span><span><a href="#">VIEW ORDER</a> | <a href="#">REORDER</a></span></td>
-                            </tr>
-                            <tr>
-                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000116</span></td>
-                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>3/21/19</span></td>
-                              <td class="tbl-col-3"><span class="show-sm">Ship To</span><span>George</span></td>
-                              <td class="tbl-col-4"><span class="show-sm">Order Total</span><span>$229.80</span></td>
-                              <td class="tbl-col-5"><span class="show-sm">Status</span><span>Pending</span></td>
-                              <td class="tbl-col-6"><span class="show-sm">Action</span><span><a href="#">VIEW ORDER</a> | <a href="#">REORDER</a></span></td>
-                            </tr>
-                            <tr>
-                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000116</span></td>
-                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>3/21/19</span></td>
-                              <td class="tbl-col-3"><span class="show-sm">Ship To</span><span>George</span></td>
-                              <td class="tbl-col-4"><span class="show-sm">Order Total</span><span>$229.80</span></td>
-                              <td class="tbl-col-5"><span class="show-sm">Status</span><span>Pending</span></td>
-                              <td class="tbl-col-6"><span class="show-sm">Action</span><span><a href="#">VIEW ORDER</a> | <a href="#">REORDER</a></span></td>
+                              <td class="tbl-col-1"><span class="show-sm">Order #</span><span>000000004</span></td>
+                              <td class="tbl-col-2"><span class="show-sm">Date</span><span>1/15/20</span></td>
+                              <td class="tbl-col-3"><span class="show-sm">Estimated</span><span>1/30/20</span></td>
+                              <td class="tbl-col-4"><span class="show-sm">Delivery Date</span><span>dw ed2w</span></td>
+                              <td class="tbl-col-5"><span class="show-sm">Ship To</span><span>$80.00</span></td>
+                              <td class="tbl-col-6"><span class="show-sm">Order Total</span><span>Pending</span></td>
+                              <td class="tbl-col-7"><span class="show-sm">StatusAction</span><span><a href="#">VIEW ORDER REORDER</a></span></td>
                             </tr>
                           </table>
                         </div>
@@ -292,35 +264,7 @@
                     </form>
                   </div>
                   <div class="my-order-pagination clearfix">
-                    <p>Items 1 to 10 of 25 total</p>
-                    <div class="plpc-rgt-filterbar clearfix">
-                      <div class="plpc-rgt-hdr-filter plpc-rgt-hdr-filter-1 vn-select-bx-wrap">
-                        <label>SHOW</label>
-                        <div class="vn-select-bx xs-vn-select-bx" style="min-width: 60px">
-                            <select class="selectpicker clearfix">
-                              <option selected="selected">15</option>
-                              <option>16</option>
-                              <option>10</option>
-                              <option>9</option>
-                              <option>8</option>
-                            </select>
-                        </div>
-                      </div>
-                      <div class="filterbar-pl-pagination">
-                        <div class="pl-pagination">
-                            <a href="#" class="pl-pagi-prev"></a>
-                            <ul class="ulc">
-                              <li><a href="#">1</a></li>
-                              <li><a href="#">...</a></li>
-                              <li><a href="#">7</a></li>
-                              <li class="pl-pagi-active"><a href="#">8</a></li>
-                              <li><a href="#">9</a></li>
-                              <li><a href="#">10</a></li>
-                            </ul>
-                            <a href="#" class="pl-pagi-nxt"></a>
-                          </div>
-                      </div>
-                    </div>
+                    <p>Items 1</p>
                   </div>
                 </div>
 

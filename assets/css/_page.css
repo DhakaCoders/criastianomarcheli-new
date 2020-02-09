@@ -57,11 +57,11 @@
 	background-position: center center!important;
 	background-repeat: no-repeat!important;
 }
-#page-banner-2 .page-banner-bg{
-    height: 400px;
+.page-banner-2 .page-banner-bg{
+    height: 400px!important;
 }
-#page-banner-2 .page-banner-des-inner {
-    padding: 195px 0 65px;
+.page-banner-2 .page-banner-des-inner {
+    padding: 195px 0 65px!important;
 }
 #page-banner-2 strong.banner-page-title,
 #page-banner-2 h1.banner-page-title{
@@ -148,22 +148,20 @@ span.btm-line{
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-.page-banner-btm-des {
+/* .page-banner-btm-des {
     position: relative;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: #fff;
     z-index: 10;
-}
+} */
 .page-banner-btm-des-innr {
-    max-width: 1430px;
+    max-width: 1200px;
     margin: 0 auto;
     height: 100%;
     position: relative;
-    min-height: 124px;
     text-align: left;
-    /*padding: 27px 0 24px; */
 }
 .page-banner-btm-des-innr::after {
     content: '';
@@ -174,7 +172,10 @@ span.btm-line{
     left: 45px;
     bottom: 22px;
 }
-
+.page-banner-btm-des-single {
+    padding: 35px 10px 18px 68px;
+    border-bottom: 1px solid #000;
+}
 .style-book-spn{
     font-size: 16px;
     line-height: 24.8px;
@@ -187,33 +188,34 @@ span.btm-line{
     text-transform: uppercase;
 }
 .page-banner-btm-des .page-banner-btm-des-lft {
-    width: 29.58%;
+    width: 22%;
     float: left;
-    border-right: 2px solid #000;
+    border-right: 1px solid #000;
     position: relative;
-    padding: 35px 10px 36px 33px;
+    padding: 28px 10px 25px 0;
 }
 .page-banner-btm-des-lft span{
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 9.09px;
-    color: #000000;
     text-transform: uppercase;
     display: inline-block;
     vertical-align: baseline;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 31px;
+    letter-spacing: 6.36364px;
 }
-
 a.btm-des-down-lnc {
     position: absolute;
     display: inline-block;
     vertical-align: baseline;
     max-width: 25px;
     left: 0;
-    bottom:-3px;
+    top: 25px;
 }
 a.btm-des-down-lnc:hover{
-    bottom: -8px;
+    top: 30px;
+}
+.page-banner-btm-des.shoplisting-banner-btm a.btm-des-down-lnc {
+    top: 100px;
 }
 
 #breadcrumbs-page-bnr a.btm-des-down-lnc {
@@ -222,45 +224,47 @@ a.btm-des-down-lnc:hover{
 #breadcrumbs-page-bnr a.btm-des-down-lnc:hover{
     bottom: 7px;
 }
-
 .page-banner-btm-des .page-banner-btm-des-rgt {
-    width: 70.42%;
+    width: 78%;
     float: left;
-    padding-left: 44px;
-    padding-top: 25px;
+    padding-left: 24px;
+    padding-top: 17px;
 }
 .page-banner-btm-des-rgt form > ul > li{
     float: left;
 }
 .page-banner-btm-des-rgt form > ul > li:nth-child(1){
-    width:26.14%;
+    width:22%;
 }
 .page-banner-btm-des-rgt form > ul > li:nth-child(2){
-    width:43.67%;
+    width:46%;
 }
 .page-banner-btm-des-rgt form > ul > li:nth-child(3){
-    width:30.19%;
+    width:32%;
 }
 #banner-custom-order form > ul > li:nth-child(1) > span {
-    font-size: 15pxpx;
     font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 9.09px;
-    color: #000000;
     text-transform: uppercase;
-    padding: 10px 10px 10px 0;
+    padding: 16px 10px 10px 0;
     display: inline-block;
     vertical-align: baseline;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 4.2px;
+}
+#banner-custom-order .custom-color {
+    padding-left: 85px;
+    margin-bottom: 0;
 }
 #banner-custom-order .custom-color > span, 
 #banner-custom-order .custom-size > span {
+    display: inline-block;
+    vertical-align: baseline;
     font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 40px;
-    letter-spacing: 4.5px;
-    color: #000000;
-    padding-top: 3px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
 }
 #banner-custom-order .custom-size{
     padding-left: 72px;
@@ -300,8 +304,10 @@ a.btm-des-down-lnc:hover{
     border: 0; 
 }
 #banner-custom-order .select-dep button.dropdown-toggle {
-    background: #000;
     width: 261px;
+}
+#banner-custom-order .select-dep button.dropdown-toggle:hover {
+    background: #000;
 }
 #banner-custom-order .color-slct .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
     text-align: left;
@@ -322,23 +328,43 @@ a.btm-des-down-lnc:hover{
 #banner-custom-order .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
     width: 261px;
 }
-
-.page-banner-btm-des-single {
-    padding: 10px 10px 52px 12px;
-}
 #breadcrumbs-page-bnr .page-banner-btm-des-innr::after {
     content: none;
 }
-
-
 #breadcrumbs-page-bnr .page-banner-btm-des-left-inc::after {
     bottom: -6px;
 }
-
 .page-banner-btm-des-rgt .color-slct{
     width: 261px;
 }
+.music-con {
+    position: absolute;
+    bottom: 55px;
+    right: 17.5%;
+}
+.music-con-innr{
+    position: relative;
+    height: 100%;
+    padding-top: 52px;
+}
+.music-con img{
+    position: absolute;
+    right:-20px;
+    top: 0;
+}
+.music-con span{
+    display: inline-block;
+    vertical-align: baseline;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.09375px;
+}
+.music-con span strong{
+    display: block;
+    font-weight: 700;
 
+}
 
 /*breadcrumbs*/
 
@@ -357,12 +383,13 @@ a.btm-des-down-lnc:hover{
     padding: 0 17px;
     position: relative;
     float: left;
-    font-size: 20px;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 6px;
     color: #ffffff;
     text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4.8px;
 }
 .breadcrumbs ul li a {
     display: block;
@@ -592,9 +619,9 @@ a.btm-des-down-lnc:hover{
     #banner-custom-order .custom-size > span{
         font-size: 13px;
         line-height: 22px;
-    top: 8px;
+        top: 8px;
     }
-    .custom-color {
+    .custom-color{
         padding-left: 67px;
         margin-bottom: 35px;
     }

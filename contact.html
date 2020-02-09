@@ -178,18 +178,29 @@
 
 
 
-<section class="page-banner" id="page-banner-2">
+<section class="page-banner page-banner-2" id="breadcrumbs-page-bnr">
   <div class="page-banner-controller" style="position: relative; overflow: hidden;">
-    <div class="page-banner-bg" style="background-image:url(assets/images/page-banner.jpg);"></div>
+    <div class="page-banner-bg animate-banner" style="background-image:url(assets/images/product-page-banner.jpg);"></div>
     <div class="page-banner-des-inner">
-      <strong class="banner-page-title hide-title">Contact Us</strong>
-      <div class="page-banner-ftr">
-        
+      <strong class="banner-page-title hide-title">Shop</strong>
+    </div>
+  </div>
+  <div class="page-banner-btm-des">
+    <div class="page-banner-btm-des-innr"> 
+      <div class="page-banner-btm-des-single">
+        <a class="btm-des-down-lnc" href="#single-product">
+          <img class="resize" src="assets/images/page-bnr-btm-des-inc.svg" alt="">
+        </a>
+        <div class="breadcrumbs">
+          <ul>           
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</section><!-- end of page-banner -->
-
+</section>
 
 
 <section class="contact-ed-sec">
@@ -197,74 +208,81 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="form-hdr-title">
-          <h1>Φόρμα επικοινωνίας</h1>
+          <h2>Customer Service</h2>
+          <span>Please contact us</span>
         </div>
       </div>
       <div class="col-sm-12">
         <div class="ed-dft-field-grd-controller clearfix">
           <div class="ed-dft-field-grd-lft">
             <div class="ed-dft-form-controller">
-              <div class="ed-dft-form-entry-hdr">
-                  <strong>Θέλετε να επικοινωνή</strong>
-                  <p>Συπληρώστε εδώ τα στοιχεία σας:</p>
-              </div>
               <form>
                 <div class="ed-dft-2-grd-wrap clearfix">
                   <div class="ed-dft-grd-col pdbtm-35">
-                    <label>ONOMA <span>*</span></label>
+                    <label>Name * </label>
                     <input type="text" name="">
                   </div>
                   <div class="ed-dft-grd-col pdbtm-35">
-                    <label>ΕΠΩΝΥΜΟ</label>
+                    <label>Surname * </label>
                     <input type="text" name="">
                   </div>
                 </div>
                 <div class="ed-dft-2-grd-wrap clearfix">
                   <div class="ed-dft-grd-col pdbtm-35">
-                    <label>EMAIL<span>*</span></label>
+                    <label>Email * </label>
                     <input type="email" name="">
                   </div>
                   <div class="ed-dft-grd-col pdbtm-35">
-                    <label>ΤΗΛΕΦΩΝΟ</label>
+                    <label>Telephone Number * </label>
                     <input type="text" name="">
                   </div>
                 </div>
                 <div class="ed-dft-grd-full">
-                  <label>ΣΧΟΛΙΑ & ΕΡΩΤΗΣΕΙΣ</label>
+                  <label>Message </label>
                   <textarea></textarea>
                 </div>
+                <div class="ed-dft-grd-full ed-dft-grd-necessary">
+                  <span>* necessary fields</span>
+                </div>
                 <div class="ed-dft-form-submit-btn">
-                  <button>Είσοδος</button>
+                  <button>submit</button>
                 </div>
               </form>
-              <div class="requered-txt">
-                <span>* Υποχρωτικά πεδία</span>
-              </div>
             </div>
           </div>
           <div class="ed-dft-field-grd-rgt">
-            <div class="ed-dft-contact-info">
-              <div class="frt-contact-left"> 
-                <strong>Στοιχεία επικοινωνία</strong>
-                <ul class="ulc clearfix">
-                  <li>
-                    <i><img src="assets/images/ftr-mail.svg" alt=""></i> 
-                    <span>ΦΟΡΜΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</span> 
-                    <span class="lst-spn"><a href="#">info@cristianomarcheli.</a></span>
-                  </li>
-                  <li>
-                    <i><img src="assets/images/ftr-music.png" alt=""></i> 
-                    <span>ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</span> 
-                    <span class="cell"><a href="#">2263 0 63275</a></span>
-                  </li>
-                </ul>
-                <div class="ed-dft-rgt-bx-social clearfix">
-                  <div class="frt-contact-box-social"> 
-                    <a href="#"><i><img src="assets/images/ftr-instra.svg" class="social_fit" alt=""></i></a>
-                    <a href="#"><i><img src="assets/images/ftr-fb.svg" class="social_fit" alt=""></i></a>
-                  </div>
-                </div>
+            <div class="ed-dft-contact-map" >
+              <div class="ed-dft-contact-map-top text-center">
+                <h4><span>WE ARE HERE</span></h4>
               </div>
+              <div id="contactMap"></div> 
+            </div>
+            <div class="ed-dft-contact-social" >
+              <div class="ed-dft-contact-map-top text-center">
+                <h4><span>follow us</span></h4>
+              </div>
+              <ul class="ulc clearfix">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-facebook-official"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                </li>
+              </ul> 
             </div>
           </div>
         </div>

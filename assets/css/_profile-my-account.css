@@ -1,3 +1,8 @@
+.login-signin-sec.profile-my-acc{
+	margin-bottom: 343px;
+}
+
+
 .logariasmos-sec{
 	margin-bottom: 35px;
 }
@@ -6,10 +11,10 @@
 }
 .logariasmos-right {
     background: #f5f5f5;
-    padding: 30px 35px;
+    padding: 30px 25px;
 }
 .logariasmos-block{
-	margin-bottom: 62px;
+	margin-bottom: 40px;
 }
 .logariasmos-block:nth-child(1) .logariasmos-block-top {
     margin-bottom: 33px;
@@ -23,7 +28,7 @@
 }
 .logariasmos-block-top span {
     font-size: 13px;
-    font-weight: 600;
+    font-weight:700;
     color: #b0b0b0;
     padding-right: 15px;
     text-transform: uppercase;
@@ -39,11 +44,12 @@
 	float: left;
 	padding-left: 7px;
 }
-.logariasmos-block-main h5{
-  font-weight: 600;
-  color: #000000;
-  margin-top: 0;
-  margin-bottom: 15px;
+.logariasmos-block-main h5 {
+    font-weight: 600;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 13px;
 }
 .logariasmos-block-main .logariasmos-innr-info{
 	margin-bottom: 15px
@@ -63,8 +69,12 @@
 	vertical-align: baseline;
 }
 .logariasmos-block .info-lnc a{
-	font-weight: 600;
 	color: #000;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 5.45455px;
+	text-transform: uppercase;
 	-ms-transition: all .3s ease;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
@@ -72,3 +82,109 @@
 .logariasmos-block .info-lnc a:hover{
 	opacity: 0.6;
 }
+
+
+
+#personal-info-sec .login-signin-inner-wrp {
+    padding-bottom: 343px;
+}
+#personal-info .account-page-hdr {
+	border-bottom: 1px solid #979797;
+}
+#personal-info .account-page-hdr h6{
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #B0B0B0;
+}
+#personal-info .profile-address-d2:last-child {
+    padding-left: 0;
+}
+#personal-info .profile-address-d2:first-child {
+    padding-right: 0;
+}
+#personal-info .new-add-address-fields{
+	max-width: 365px;
+}
+#personal-info input{
+	background: #0000;
+}
+#personal-info .ed-dft-grd-checkBx {
+    padding-top: 25px;
+    padding-left: 0;
+}
+#personal-info .ppi-btn{
+	padding-top: 10px;
+}
+#personal-info .ppi-btn a,
+#personal-info .ppi-btn button{
+	text-align: center;
+	display: inline-block;
+	vertical-align: baseline;
+	 width: 153px;
+	height: 58px;
+	padding-top: 17px;
+	background: #000000;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 7.27273px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border: 2px solid #000;
+}
+#personal-info .ppi-btn a:hover,
+#personal-info .ppi-btn button:hover{
+	background: #0000;
+	color: #000;
+}
+#personal-info .account-fields-row {
+    padding-bottom: 8px;
+}
+
+
+
+#pro-news-sub .account-page-hdr {
+	border-bottom: 1px solid #979797;
+	padding: 5px 0 10px;
+}
+#pro-news-sub .account-page-hdr h6{
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #B0B0B0;
+}
+#pro-news-sub .ed-dft-grd-checkBx {
+    padding-top: 5px;
+    padding-left: 0;
+}
+
+#pro-news-sub .pns-btn ,
+#pro-news-sub .pns-btn {
+	padding-top: 55px;
+}
+
+#pro-news-sub .pns-btn a,
+#pro-news-sub .pns-btn button{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 5.45455px;
+	text-transform: uppercase;
+	color: #000000;
+}
+#pro-news-sub .pns-btn a:hover,
+#pro-news-sub .pns-btn button:hover{
+	color: #979797;
+}
+#pro-news-sub .account-fields-row {
+    padding-bottom: 10px;
+}
+
+
+
+
