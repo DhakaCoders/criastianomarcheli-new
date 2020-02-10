@@ -277,10 +277,11 @@
     color: #fff;
     display: inline-block;
     vertical-align: baseline;
-    padding-left: 7px;
-    padding-top: 1px;
-    font-weight: 700;
+    padding: 1px;
     font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 4px;
 }
 .summary-top .cart-des{
     display: inline-block;

@@ -27,25 +27,35 @@
 </head>
 <body>
 <header id="sticky-menu" class="header">
-  <div class="container-xlg">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="hdr-inner clearfix">
           <div class="hdr-col hdr-left">
-            <div class="header-rgt-menu">                         
-              <div class="nav-opener-wrp">
-                <div class="nav-opener">
-                  <span></span>
-                  <span></span>
-                </div>
+            <div class="header-left-menu">
+              <div class="hdr-left-menu-con hide-sm">
+                <nav class="hdr-nav"> 
+                  <ul class="ulc clearfix">
+                    <li><a href="#">shop now</a></li>
+                    <li><a href="#">our collections</a></li>
+                  </ul>
+                </nav>                
               </div>
-              <nav class="hdr-nav"> 
-                <ul class="ulc clearfix">
-                  <li><a href="#">shop now</a></li>
-                  <li><a href="#">our collections</a></li>
-                  <li><a href="#">about us</a></li>
-                </ul>
-              </nav>
+              <div class="sm-menu show-sm">                        
+                <div class="nav-opener-wrp">
+                  <div class="nav-opener">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <nav class="sm-hdr-nav"> 
+                  <ul class="ulc clearfix">
+                    <li><a href="#">shop now</a></li>
+                    <li><a href="#">our collections</a></li>
+                    <li><a href="#">about us</a></li>
+                  </ul>
+                </nav>
+              </div> 
             </div>
           </div>
           <div class="hdr-col hdr-logo">       
@@ -62,7 +72,7 @@
               </li>
               <li>
                 <div class="cart-wrp"> 
-                  <a id="h-cart" href="#">cart <span>0</span></a>
+                  <a id="h-cart" href="#">bag <span><img src="assets/images/hdr-shopping-purse-icon.svg" alt=""></span></a>
                 </div>        
               </li>
               <li>
@@ -79,8 +89,7 @@
             </ul>
             <div class="hdr-cart-toggle-menu">
               <div class="hdr-cart-toggle-menu-inr">
-                <ul class="clearfix ulc">                      
-              
+                <ul class="clearfix ulc">            
                   <li class="toggle-menu-cart-item">
                     <a href="#">
                       <i>
@@ -137,14 +146,13 @@
                   </li>  
                   <li class="hct-total-amount clearfix">
                     <span><strong>2</strong> προϊόντα </span>
-                    <span>ΣΥΝΟΛΙΚΟ ΠΟΣΟ<strong>118.00€</strong></span>       
+                    <span>ΣΥΝΟΛΙΚΟ ΠΟΣΟ<strong>118.00€</strong></span>      
                   </li>                 
                   <li>
                     <div class="hdr-cart-toggle-menu-ftr text-center">
                       <a href="#">ΟΛΟΚΛΗΡΩΣΗ ΠΑΡΑΓΓΕΛΙΑΣ</a>
                     </div>
-                  </li>       
-                                                
+                  </li>                                
                 </ul>                    
               </div>
             </div>
@@ -200,7 +208,7 @@
       </div>
       <div class="col-sm-12">
         <div class="ed-dft-field-grd-controller clearfix" id="ed-dft-field-grd-login">
-          <div class="ed-dft-field-grd-lft">
+          <div class="ed-dft-field-grd-lft mHc">
             <div class="ed-dft-form-controller">
               <div class="ed-dft-form-entry-hdr">
                 <strong>If you have an account, sign in with your email address.</strong>
@@ -226,13 +234,19 @@
               </form>
             </div>
           </div>
-          <div class="ed-dft-field-grd-rgt">
+          <div class="ed-dft-field-grd-rgt mHc">
             <div class="ed-dft-new-cust text-center">
               <h2>New Customers</h2>
               <p>Creating an account has many benefits: <br/>check out faster, keep more than one address, <br/>track orders and more.</p>
               <a href="#">CREATE AN ACCOUNT</a>
             </div>
           </div>
+        </div>
+        <div class="log-or">
+          <p>or</p>
+        </div>
+        <div class="ed-dft-field-grd-login-fb fb-acc-btn-wrp text-left">
+          <a href="#">CONNECT WITH Facebook</a>
         </div>
       </div>
     </div>
@@ -242,20 +256,20 @@
 
 <footer class="footer-wrap">
   <div class="footer-top-wrp">
-    <div class="container-lg-2">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12"> 
-          <div class="footer-top clearfix"> 
-            <div class="footer-top-col">
-              <h5><span>Security - Privacy</span></h5>
+          <div class="footer-top clearfix">
+            <div class="footer-top-col footer-top-col-1">
+              <h3><span>Security - Privacy</span></h3>
               <a href="#">Terms and Conditions</a>
             </div>
-            <div class="footer-top-col">
-              <h5><span>RETURNS & REFUNDS</span></h5>
+            <div class="footer-top-col footer-top-col-2">
+              <h3><span>RETURNS & REFUNDS</span></h3>
               <a href="#">Read more</a>
             </div>
-            <div class="footer-top-col">
-              <h5><span>Customer Service</span></h5>
+            <div class="footer-top-col footer-top-col-3">
+              <h3><span>Customer Service</span></h3>
               <a href="#">Please Contact us</a>
             </div>
           </div>
@@ -264,13 +278,13 @@
     </div> 
   </div>
   <div class="ftr-main-con">
-    <div class="container-lg-2">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12"> 
           <div class="ftr-social-newsletter-innr clearfix"> 
-            <div class="ftr-social">
+            <div class="ftr-social mHc">
               <div class="ftr-social-head"> 
-                <h5>Follow Us</h5>
+                <h5> <span>Follow Us</span></h5>
               </div>
               <ul class="ulc clearfix">
                 <li>
@@ -295,14 +309,14 @@
                 </li>
               </ul>
             </div>
-            <div class="ftr-newsletter">
+            <div class="ftr-newsletter mHc">
               <div class="ftr-newsletter-head"> 
                 <h5>BE THE FIRST TO KNOW. SIGN UP FOR OUR NEWSLETTER.</h5>
               </div>
               <div class="ftr-newsletter-main"> 
                 <form class="" action="">
                   <div class="from-group">
-                    <input class="Subs-fill">
+                    <input class="Subs-fill" type="text">
                     <button><span></span></button>
                   </div>
                 </form>

@@ -50,21 +50,28 @@
 	border-radius: 4.5px;
 	z-index: 2;
 }
-.tab-btn-wrp ul li span > strong{
-	font-weight: 700;
-	padding-right: 4px;
-	color: #000;
-}
 
 .tab-btn-wrp ul li.active-1 span,
 .tab-btn-wrp.step2 ul li.active-2 span{
 	color: #5E5E5E;
 }
-
-.tab-btn-wrp.step1 ul li.active-1 span::after{
-	background: #000;
+.tab-btn-wrp.step2 ul li.active-1 span{
+	color: #C2C2C2;
 }
 
+.tab-btn-wrp ul li.active-1 span::after,
+.tab-btn-wrp.step2 ul li.active-2 span::after{
+	background: #000;
+}
+.tab-btn-wrp.step2  ul li.active-1 span::after{
+	background: #959595;
+}
+
+.tab-btn-wrp ul li span > strong{
+	font-weight: 700;
+	padding-right: 6px;
+	color: #000;
+}
 /* .tab-btn-wrp.step2 ul li span::after {
     content: "";
     position: absolute;
@@ -80,7 +87,7 @@
 } */
 
 .shipping-sec-form {
-    padding: 38px 45px 60px;
+    padding: 38px 45px 70px;
     background: #f5f5f5;
 }
 .ship-ord-smry{
@@ -161,16 +168,20 @@
     background: #b0b0b0;
 }
 .shipping-sec-form .contact-info input[type="submit"] {
-    width:128px;
-    height:55px;
+    width:153px;
+    height:58px;
     padding-top:14px;
     text-align: center;
-    background: #f5f5f5;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 600;
-    color: #000;
     border:2px solid #000; 
+    background: #000;
+    color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 7.27273px;
     display: inline-block;
 	vertical-align: baseline;
     -ms-transition: all .3s ease;
@@ -178,11 +189,11 @@
     transition: all .3s ease;
 }
 .shipping-sec-form .contact-info input[type="submit"]:hover {
-    background: #000;
-    color: #fff;
+    color: #000;
+    background: #f5f5f5;
 }
 .shipping-sec-form .contact-info .input-submit-group{
-    padding: 44px 16px 0;
+    padding: 20px 16px 0;
 }
 .shipping-sec-form .contact-info .form-group {
 	margin-bottom:25px;
@@ -233,19 +244,18 @@
 .ship-ord-smry .odr-sumry-btn-clk button.odr-btn-expend::before{
 	content: "\f0d8";
 }
-.ship-ord-smry .product-des-innr{
-	padding-top: 17px;
-}
+
 .ship-ord-smry .product-img {
     float: left;
-    padding-top: 12px;
+    width: 87px;
+    height: 87px;
+    margin-top: 6px;
 }
 .ship-ord-smry .product-img img {
-	max-width: 80px;
 	width: 100%;
 }
 .ship-ord-smry .product-dsc{
-	padding-left: 92px;
+	padding-left: 102px;
 }
 .ship-ord-smry .product-dsc span{
 	font-size: 13px;
@@ -255,15 +265,69 @@
 	vertical-align: baseline;
 	position: relative;
 	padding-right: 12px;
-	padding-bottom: 10px;
+	padding-bottom: 3px;
 }
 .ship-ord-smry .product-dsc span.price-spn {
     font-size: 20px;
-    padding-left: 12px;
+    padding-left: 5px;
+    padding-right: 0;
+    padding-bottom: 5px;
     font-weight: 800;
     color: #000000;
     position: relative;
-    top: 3px;
+    /* top: 3px; */
+    line-height: 25px;
+}
+
+.ship-ord-smry .product-dsc span.pro-title{
+	padding-bottom: 5px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 4.8px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.ship-ord-smry .product-dsc span.pro-des{
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000000;
+}
+
+
+.ed-dft-field-grd-forgot-back{
+	padding: 20px 0;
+}
+.ed-dft-field-grd-forgot-back a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 7.27273px;
+	text-transform: uppercase;
+	color: #000000;
+	position: relative;
+	padding-left: 70px;
+}
+.ed-dft-field-grd-forgot-back a::after{
+	content: "";	
+	position: absolute;
+	left: 0;
+	top: 4px;
+	background: url(../images/forgot-back.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 14px;
+	width: 42px;
+	-webkit-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.ed-dft-field-grd-forgot-back a:hover::after{
+	left: -7px;
 }
 
 
@@ -435,7 +499,7 @@ payment-method-wrp
 	text-align: right;
 }
 .odr-product-item {
-	padding-top: 20px;
+	padding-top: 24px;
 }
 
 .price-box span{

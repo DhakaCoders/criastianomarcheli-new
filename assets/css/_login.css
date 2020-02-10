@@ -388,6 +388,7 @@
     padding-top: 30px;
     padding: 40px 38px 60px 25px;
     min-height: 495px;
+    margin-bottom: 20px;
 }
 #ed-dft-field-grd-login .ed-dft-field-grd-rgt {
     float: right;
@@ -473,15 +474,15 @@
   display: block;
 }
 .ed-dft-check .checkmark::after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid #979797;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+	left: 8px;
+	top: 4px;
+	width: 7px;
+	height: 13px;
+	border: solid #979797;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .ed-dft-field-grd-reg-fb{
@@ -527,16 +528,14 @@
 
 
 #ed-dft-field-grd-forgot {
-height: 494px;
-background: #F5F5F5;
-padding: 20px 42px 20px; 
+	background: #F5F5F5;
+	padding: 40px 42px 75px; 
 }
-
 #ed-dft-field-grd-forgot .ed-dft-form-controller{
 	padding-left: 80px;
 	padding-right: 130px;
+	padding-top: 38px;
 }
-
 #ed-dft-field-grd-forgot .ed-dft-grd-col {
     float: left;
     width: 50%;
@@ -563,30 +562,11 @@ padding: 20px 42px 20px;
 	background: #FFFFFF;
 	color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ed-dft-new-cust{
 	border: 2px solid #000000;
 	padding: 60px 20px 50px;
 	min-height: 495px;
 }
-
 .ed-dft-new-cust h2{
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
@@ -595,13 +575,11 @@ padding: 20px 42px 20px;
 	color: #000000;
 	margin-bottom: 26px;
 }
-
 .ed-dft-new-cust p{
 	font-weight: 300;
 	line-height: 25px;
 	margin-bottom: 96px;
 }
-
 .ed-dft-new-cust a{
 	display: inline-block;
 	vertical-align: baseline;
@@ -616,12 +594,45 @@ padding: 20px 42px 20px;
 	background: #000;
 	border: 2px solid #000;
 }
-
-
-
-
-
-
+.log-or p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	color: #000;
+}
+.captcha-wrp{
+	position: relative;
+	margin-top: 28px;
+}
+.captcha-wrp i {
+	display: inline-block;
+	vertical-align: baseline;
+	max-width: 218px;
+}
+.captcha-wrp i img{
+	width: 100%;
+}
+.captcha-wrp button.cap-reload{
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 5.45455px;
+	text-transform: uppercase;
+	color: #000000;
+	position: absolute;
+	top: 50%;
+	right: -12px;
+	background: #0000;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+#ed-dft-field-grd-forgot > p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 25px;
+} 
 
 
 

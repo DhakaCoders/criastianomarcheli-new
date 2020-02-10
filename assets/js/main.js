@@ -180,6 +180,102 @@ if( $('.qty').length ){
 
 
 
+
+
+
+
+/*Google map */
+if( $('#contact-map').length ){
+    var latitude = $('#contact-map').data('lat');
+    var longitude = $('#contact-map').data('long');
+
+    var myCenter= new google.maps.LatLng(latitude,  longitude);
+    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+    function initialize(){
+        var mapProp = {
+          center:myCenter,
+
+          //mapTypeControl:false,
+          scrollwheel: false,
+
+          //zoomControl: false,
+          //disableDefaultUI: true,
+          zoom:15,
+          streetViewControl: false,
+          rotateControl: false,
+          mapTypeId:google.maps.MapTypeId.ROADMAP,
+          styles : [
+              {
+                  "featureType": "administrative.country",
+                  "elementType": "geometry",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "administrative.locality",
+                  "elementType": "geometry",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "administrative.locality",
+                  "elementType": "labels",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "landscape",
+                  "elementType": "all",
+                  "stylers": [
+                      {
+                          "visibility": "on"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "landscape",
+                  "elementType": "labels",
+                  "stylers": [
+                      {
+                          "visibility": "on"
+                      }
+                  ]
+              },
+              {
+                  "featureType": "poi",
+                  "elementType": "all",
+                  "stylers": [
+                      {
+                          "visibility": "off"
+                      }
+                  ]
+              }
+          ]
+          };
+
+        var map= new google.maps.Map(document.getElementById('contact-map'),mapProp);
+
+        var marker= new google.maps.Marker({
+          position:myCenter,
+          icon: 'map-marker.svg'
+          });
+        marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+}
+
+
+
 /**
 Slick slider
 */

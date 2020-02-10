@@ -27,25 +27,35 @@
 </head>
 <body>
 <header id="sticky-menu" class="header">
-  <div class="container-xlg">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="hdr-inner clearfix">
           <div class="hdr-col hdr-left">
-            <div class="header-rgt-menu">                         
-              <div class="nav-opener-wrp">
-                <div class="nav-opener">
-                  <span></span>
-                  <span></span>
-                </div>
+            <div class="header-left-menu">
+              <div class="hdr-left-menu-con hide-sm">
+                <nav class="hdr-nav"> 
+                  <ul class="ulc clearfix">
+                    <li><a href="#">shop now</a></li>
+                    <li><a href="#">our collections</a></li>
+                  </ul>
+                </nav>                
               </div>
-              <nav class="hdr-nav"> 
-                <ul class="ulc clearfix">
-                  <li><a href="#">shop now</a></li>
-                  <li><a href="#">our collections</a></li>
-                  <li><a href="#">about us</a></li>
-                </ul>
-              </nav>
+              <div class="sm-menu show-sm">                        
+                <div class="nav-opener-wrp">
+                  <div class="nav-opener">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <nav class="sm-hdr-nav"> 
+                  <ul class="ulc clearfix">
+                    <li><a href="#">shop now</a></li>
+                    <li><a href="#">our collections</a></li>
+                    <li><a href="#">about us</a></li>
+                  </ul>
+                </nav>
+              </div> 
             </div>
           </div>
           <div class="hdr-col hdr-logo">       
@@ -62,7 +72,7 @@
               </li>
               <li>
                 <div class="cart-wrp"> 
-                  <a id="h-cart" href="#">cart <span>0</span></a>
+                  <a id="h-cart" href="#">bag <span><img src="assets/images/hdr-shopping-purse-icon.svg" alt=""></span></a>
                 </div>        
               </li>
               <li>
@@ -79,8 +89,7 @@
             </ul>
             <div class="hdr-cart-toggle-menu">
               <div class="hdr-cart-toggle-menu-inr">
-                <ul class="clearfix ulc">                      
-              
+                <ul class="clearfix ulc">            
                   <li class="toggle-menu-cart-item">
                     <a href="#">
                       <i>
@@ -137,14 +146,13 @@
                   </li>  
                   <li class="hct-total-amount clearfix">
                     <span><strong>2</strong> προϊόντα </span>
-                    <span>ΣΥΝΟΛΙΚΟ ΠΟΣΟ<strong>118.00€</strong></span>       
+                    <span>ΣΥΝΟΛΙΚΟ ΠΟΣΟ<strong>118.00€</strong></span>      
                   </li>                 
                   <li>
                     <div class="hdr-cart-toggle-menu-ftr text-center">
                       <a href="#">ΟΛΟΚΛΗΡΩΣΗ ΠΑΡΑΓΓΕΛΙΑΣ</a>
                     </div>
-                  </li>       
-                                                
+                  </li>                                
                 </ul>                    
               </div>
             </div>
@@ -256,6 +264,7 @@
                 <h4><span>WE ARE HERE</span></h4>
               </div>
               <div id="contactMap"></div> 
+              <div style="min-height: 240px" id="contact-map" data-lat="50.844924" data-long="4.352091"></div>
             </div>
             <div class="ed-dft-contact-social" >
               <div class="ed-dft-contact-map-top text-center">
@@ -294,20 +303,20 @@
 
 <footer class="footer-wrap">
   <div class="footer-top-wrp">
-    <div class="container-lg-2">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12"> 
-          <div class="footer-top clearfix"> 
-            <div class="footer-top-col">
-              <h5><span>Security - Privacy</span></h5>
+          <div class="footer-top clearfix">
+            <div class="footer-top-col footer-top-col-1">
+              <h3><span>Security - Privacy</span></h3>
               <a href="#">Terms and Conditions</a>
             </div>
-            <div class="footer-top-col">
-              <h5><span>RETURNS & REFUNDS</span></h5>
+            <div class="footer-top-col footer-top-col-2">
+              <h3><span>RETURNS & REFUNDS</span></h3>
               <a href="#">Read more</a>
             </div>
-            <div class="footer-top-col">
-              <h5><span>Customer Service</span></h5>
+            <div class="footer-top-col footer-top-col-3">
+              <h3><span>Customer Service</span></h3>
               <a href="#">Please Contact us</a>
             </div>
           </div>
@@ -316,13 +325,13 @@
     </div> 
   </div>
   <div class="ftr-main-con">
-    <div class="container-lg-2">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12"> 
           <div class="ftr-social-newsletter-innr clearfix"> 
-            <div class="ftr-social">
+            <div class="ftr-social mHc">
               <div class="ftr-social-head"> 
-                <h5>Follow Us</h5>
+                <h5> <span>Follow Us</span></h5>
               </div>
               <ul class="ulc clearfix">
                 <li>
@@ -347,14 +356,14 @@
                 </li>
               </ul>
             </div>
-            <div class="ftr-newsletter">
+            <div class="ftr-newsletter mHc">
               <div class="ftr-newsletter-head"> 
                 <h5>BE THE FIRST TO KNOW. SIGN UP FOR OUR NEWSLETTER.</h5>
               </div>
               <div class="ftr-newsletter-main"> 
                 <form class="" action="">
                   <div class="from-group">
-                    <input class="Subs-fill">
+                    <input class="Subs-fill" type="text">
                     <button><span></span></button>
                   </div>
                 </form>
@@ -395,7 +404,7 @@
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
 <script src="assets/slick.slider/slick.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBHGhdEW-qtkQ_6LrsrftdX4aXa7W58c_Y"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo2-QJ7RdCkLw3NFZEu71mEKJ_8LczG-c"></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/app.js"></script>
