@@ -1,5 +1,5 @@
 .shipping-sec{
-	padding-bottom: 60px;
+	padding-bottom: 200px;
 }
 .shipping-sec-form-main{
 	width:60.42%;
@@ -717,7 +717,9 @@ button.apply-discount-btn:hover,
 	    padding-bottom: 0;
 	    padding-right: 0;
 	}
-
+	.shipping-sec{
+		padding-bottom: 150px;
+	}
 }
 
 
@@ -739,6 +741,9 @@ button.apply-discount-btn:hover,
 	.ship-ord-smry .product-img {
 	    padding-top: 10px;
 	}
+	.shipping-sec{
+		padding-bottom: 100px;
+	}
 }
 
 
@@ -747,12 +752,27 @@ button.apply-discount-btn:hover,
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	.tab-btn-wrp {
+	    padding: 0 0 10px;
+	}
+	.shipping-sec-form .contact-info input[type="submit"] {
+	    width: 153px;
+	    height: 58px;
+	    letter-spacing: 3px;
+	}
 }
 
 
 
 @media(max-width: 639px){
-
+	.shipping-sec-form .contact-info .form-group {
+	    margin-bottom: 0;
+	    position: relative;
+	}
+	.shipping-sec-form {
+	    padding: 35px 15px 50px;
+	    background: #f5f5f5;
+	}
 }
 
 
@@ -798,6 +818,32 @@ button.apply-discount-btn:hover,
 	}
 	.ship-ord-smry .product-img {
 	    padding-top: 5px;
+	}
+
+	.ship-ord-smry .product-dsc span.pro-title {
+	    font-size: 14px;
+	    line-height: 22px;
+	    letter-spacing: 1px;
+	}
+	.ship-ord-smry .product-dsc span.pro-des {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+	.ship-ord-smry .product-dsc span.price-spn {
+	    font-size: 15px;
+	}
+	.shipping-sec-form .contact-info .sb-input {
+	    padding: 10px 0px;
+	}
+	.shipping-sec-form .contact-info .form-group-wrp {
+	    padding: 15px 0;
+	}
+	.shipping-sec-form .contact-info .sb-input-1 {
+	    padding: 15px 10px 15px 0px;
+	}
+	.shipping-sec-form .contact-info .sb-input-2 {
+	    width: 35%;
+	    padding: 15px 0 25px 10px;
 	}
 }
 

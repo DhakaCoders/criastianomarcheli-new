@@ -1,7 +1,3 @@
-
-
- 
- 
 .ftr-top-banner{
 	background-position: center center!important; 
 	background-size: cover!important;
@@ -82,10 +78,6 @@
 .footer-top-col-3{
 	width: 28.76%;
 }
-
-
-
-
 .footer-top-col:last-child{
 	border-right: 0;
 }
@@ -103,7 +95,6 @@
 .ftr-social-head h5, 
 .ftr-newsletter-head h5 {
     position: relative;
-    text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -111,11 +102,9 @@
 	letter-spacing: 6.81818px;
 	text-transform: uppercase;
 }
-
 .ftr-social-head h5 {
 	margin-left: 50px;	
 }
-
 .ftr-social-head h5 span {
 	display: inline-block;
 	vertical-align: baseline;
@@ -167,7 +156,6 @@
     text-transform: uppercase;
     padding-bottom: 45px;
 }
-
 .ftr-newsletter-main .from-group{
 	position: relative;
 }
@@ -202,7 +190,6 @@
 	position: relative;
 	height:100%;
 } 
-
 .ftr-newsletter-main button > span:after{
 	content:'';
 	position: absolute;
@@ -268,6 +255,8 @@
 }
 
 
+
+
 @media(max-width: 1459px){
 	.ftr-social-head h5, 
 	.ftr-newsletter-head h5 {
@@ -275,6 +264,12 @@
 	}
 	.ftr-btm-rgt p, .ftr-btm-left li a {
 	    letter-spacing: 3.5px;
+	}
+}
+@media(max-width: 1299px){
+	.ftr-btm-con {
+	    margin-right:0;
+	    margin-left: 0;
 	}
 }
 
@@ -318,7 +313,13 @@
 	    line-height: 20px;
 	    font-size: 13px;
 	}
-
+	.ftr-social-head h5, 
+	.ftr-newsletter-head h5 {
+	    letter-spacing: 2px;
+	}
+	.footer-top h3 > span {
+	    letter-spacing: 1px;
+	}
 }
 
 @media(max-width: 991px){
@@ -329,9 +330,6 @@
 	    float: left;
 	    padding: 0 10px;
 	    padding-left: 10px;
-	}
-	.ftr-newsletter-head {
-	    padding-bottom: 0;
 	}
 	.ftr-newsletter-main .Subs-fill {
 	    width: 100%;
@@ -377,7 +375,6 @@
 	    padding-top: 0;
 	    border-right: 0;
 	}
-
 	.ftr-newsletter {
 	    width: 100%;
 	    padding: 20px 20px 0 20px;
@@ -399,6 +396,17 @@
 	}
 	.ftr-top-banner-spn {
 	    top: 70%;
+	}
+	.footer-top h3 > span {
+	    padding: 18px 0 11px;
+	    font-size: 15px;
+	}
+	.ftr-social ul {
+	    display: table;
+	    margin: 0 auto;
+	}
+	.ftr-social-head h5 {
+	    margin-left: 0;
 	}
 
 }

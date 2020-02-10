@@ -188,3 +188,49 @@
 
 
 
+
+
+@media(max-width: 1199px){
+	.logariasmos-block-top span {
+	    padding-right: 0;
+	}
+	.login-signin-sec.profile-my-acc {
+	    margin-bottom: 150px;
+	}
+	.login-signin-sec.profile-my-acc {
+	    margin-bottom: 100px;
+	}
+	#personal-info-sec .login-signin-inner-wrp {
+	    padding-bottom: 200px;
+	}
+}
+
+@media(max-width: 991px){
+	.login-signin-sec.profile-my-acc .login-signin-inner-wrp {
+	    padding: 0 0 100px;
+	}
+	.login-signin-sec.profile-my-acc {
+	    margin-bottom:0;
+	}
+	.form-hdr-title {
+	    padding-top: 25px;
+	    padding-bottom: 25px;
+	}
+	#personal-info-sec .login-signin-inner-wrp {
+		padding-top: 0;
+	    padding-bottom: 100px;
+	}
+}
+
+@media(max-width: 767px){
+	.logariasmos-right {
+	    background: #f5f5f5;
+	    padding: 30px 25px;
+	    margin-top: 35px;
+	}
+	.form-hdr-title {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+}
+

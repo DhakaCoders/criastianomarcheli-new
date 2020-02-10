@@ -134,12 +134,12 @@
     padding-top: 30px;
 }
 .custom-size{
-	padding-left: 90px;
+	padding-left: 127px;
 	position: relative;
 	margin-bottom: 18px;
 }
 .custom-color{
-  padding-left: 90px;
+  padding-left: 127px;
   position: relative;
   margin-bottom: 35px;
 }
@@ -315,7 +315,7 @@
 }
 .sizeguide-btn-wrp{
   max-width: 217px;
-  padding-left: 90px;
+  padding-left: 127px;
   margin-bottom: 50px;
 }
 a.sizeguide-btn{
@@ -347,20 +347,6 @@ a.sizeguide-btn::after{
   background-position: center center;
   background-size: 100% 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .pro-counter .qty{
@@ -545,8 +531,16 @@ a.sizeguide-btn::after{
   }
 
 }
-@media(max-width: 1199px){
 
+
+
+
+@media(max-width: 1399px){
+  .product-thumb-view-slider .slick-prev, 
+  .product-thumb-view-slider .slick-next {
+      content: none!important;
+      display: none!important;
+  }
 }
 
 @media(max-width: 1199px){
@@ -692,7 +686,7 @@ a.sizeguide-btn::after{
    .custom-quantity > span {
     letter-spacing: 2.5px;
     left: 0;
-    top: 5px;
+    top: 13px;
     font-size: 13px;
   }
   .single-product-des-top h1,
@@ -700,8 +694,12 @@ a.sizeguide-btn::after{
     letter-spacing: 3px;
   }
   #breadcrumbs-page-bnr .page-banner-btm-des-innr {
-      min-height: 130px;
+      min-height:initial!important;
       padding: 10px 0 24px;
+  }
+  .sizeguide-btn-wrp {
+      padding-left: 79px;
+      margin-bottom: 30px;
   }
 
 }
@@ -719,6 +717,9 @@ a.sizeguide-btn::after{
       padding-left: 136px;
       position: relative;
       margin-bottom: 15px;
+  }
+  .sizeguide-btn-wrp {
+      padding-left: 67px;
   }
 }
 

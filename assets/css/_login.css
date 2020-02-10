@@ -13,14 +13,13 @@
 .registration-ed-sec .ed-dft-field-grd-lft{
 	margin-bottom: 50px;
 }
-
 .ed-dft-field-grd-rgt{
 	float: right;
 	width: 40%;
 	padding-left: 118px;
 }
 .form-hdr-title{
-	padding-top: 40px;
+	padding-top: 35px;
 	padding-bottom: 33px;
 }
 .form-hdr-title h2{
@@ -93,8 +92,6 @@
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
-
-
 }
 .requered-txt{
 	background: #fff;
@@ -106,7 +103,6 @@
 	line-height: 15px;
 	font-style: italic;
 }
-
 .ed-dft-grd-full textarea{
 	margin-bottom: 25px;
 	width: 100%;
@@ -288,7 +284,7 @@
 	padding-bottom: 120px;
 }
 .login-ed-sec {
-	padding-bottom: 30px;
+	padding-bottom: 230px;
 }
 
 
@@ -654,6 +650,17 @@
 Start Responsive ->>
 --------------------
 */
+@media(max-width: 1299px){
+	#ed-dft-field-grd-reg .ed-dft-field-grd-reg-con {
+	    padding: 70px 120px 30px;
+	}
+	#ed-dft-field-grd-forgot .ed-dft-form-controller {
+	    padding-left: 70px;
+	    padding-right: 70px;
+	    padding-top: 38px;
+	}
+}
+
 @media(max-width: 1199px){
 	.ed-dft-grd-col,
 	.ed-dft-grd-full{
@@ -676,8 +683,45 @@ Start Responsive ->>
 	.ed-dft-form-submit-btn button:hover:after{
 		right: 32px;
 	}
-	.ed-dft-form-submit-btn button{
+/* 	.ed-dft-form-submit-btn button{
 		padding-right: 65px;
+	} */
+	#ed-dft-field-grd-login .ed-dft-field-grd-lft {
+	    padding: 40px 20px 50px;
+	}
+	#ed-dft-field-grd-login .ed-dft-field-grd-rgt {
+	    padding-left: 30px;
+	}
+	.ed-dft-form-submit-btn {
+	    padding: 0 30px;
+	    text-align: right;
+	}
+	#ed-dft-field-grd-login .ed-dft-form-entry-hdr {
+	    padding-bottom: 30px;
+	}
+	.forgot-pass-lnc a {
+	    letter-spacing: 4px;
+	}
+	#ed-dft-field-grd-reg .ed-dft-field-grd-reg-con {
+	    padding: 70px 70px 30px;
+	}
+	#ed-dft-field-grd-reg .ed-dft-grd-col {
+	    padding: 0 30px 20px;
+	}
+	#ed-dft-field-grd-reg .ed-dft-grd-checkBx {
+	    padding-left: 32px;
+	}
+	#ed-dft-field-grd-forgot .ed-dft-form-controller {
+	    padding-left: 45px;
+	    padding-right: 45px;
+	}
+	#ed-dft-field-grd-forgot .ed-dft-grd-col {
+	    padding: 0 28px;
+	}
+	.captcha-wrp button.cap-reload {
+	    letter-spacing: 3px;
+	    position: static;
+	    margin: 20px 0;
 	}
 }
 
@@ -701,18 +745,115 @@ Start Responsive ->>
 	.registration-ed-sec {
 	    padding-bottom: 40px;
 	}
+	.ed-dft-contact-map {
+	    margin-bottom: 50px;
+	}
+	.contact-ed-sec {
+	    padding-bottom: 180px;
+	}
+	.ed-dft-field-grd-lft {
+	    padding: 50px 20px;
+	}
+	.form-hdr-title h2 {
+	    margin-bottom: 15px;
+	}
+	.ed-dft-new-cust a {
+	    letter-spacing: 3px;
+	}
+	.ed-dft-form-submit-btn {
+	    padding: 0 30px;
+	    text-align: right;
+	}
+	#ed-dft-field-grd-login .forgot-pass-lnc {
+	    padding-left: 30px;
+	    padding-right: 30px;
+	    padding-top: 20px;
+	}
+	.forgot-pass-lnc a {
+	    letter-spacing: 2px;
+	}
 
+	.login-ed-sec {
+		padding-bottom: 170px;
+	}
+	#ed-dft-field-grd-reg .ed-dft-field-grd-reg-con {
+	    padding: 55px 30px 30px;
+	}
+	#ed-dft-field-grd-forgot .ed-dft-grd-col {
+	    width: 100%;
+	    padding: 0 20px;
+	    margin-bottom: 25px;
+	}
+	.ed-dft-form-reset-btn {
+	    padding-top: 40px;
+	}
+	#forgot-pass-sec {
+	    padding-bottom: 200px;
+	}
+	.login-signin-sec .ed-dft-grd-checkBx {
+	    padding-left: 0!important;
+	}
 }
 
 
 @media(max-width: 767px){
+	.contact-ed-sec {
+	    padding-bottom: 100px;
+	}
+	.ed-dft-grd-col, 
+	.ed-dft-grd-full {
+	    padding-right: 15px;
+	    padding-left: 15px;
+	}
+	.pdbtm-35 {
+	    padding-bottom: 25px!important;
+	}
+	#ed-dft-field-grd-login .ed-dft-field-grd-lft {
+	    width: 100%;
+	    min-height: initial;
+	    margin-bottom: 40px;
+	}
+	#ed-dft-field-grd-login .ed-dft-field-grd-rgt {
+	    width: 100%;
+	    padding-left: 0;
+	    min-height: initial;
+	    margin-bottom: 30px;
 
+	}
+	#ed-dft-field-grd-login .ed-dft-grd-full {
+	    margin-bottom: 25px;
+	}
+
+	.login-ed-sec {
+		padding-bottom: 100px;
+	}
+	.ed-dft-new-cust {
+	    padding: 50px 20px;
+	    min-height: initial;
+	}
+	.fb-acc-btn-wrp a {
+	    padding: 16px 55px 16px 25px;
+	    letter-spacing: 2px;
+	}
+	.fb-acc-btn-wrp a::after {
+	    right: 16px;
+	}
+	#forgot-pass-sec {
+	    padding-bottom: 100px;
+	}
+	#ed-dft-field-grd-forgot .ed-dft-form-controller {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
 }
 
 
 
 @media(max-width: 639px){
-
+	#ed-dft-field-grd-forgot .ed-dft-form-controller {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
 }
 
 
@@ -724,19 +865,38 @@ Start Responsive ->>
 	.form-hdr-title h1{
 		font-size: 25px;
 	}
-
+	.ed-dft-field-grd-lft {
+	    padding: 45px 10px;
+	}
+	.fb-acc-btn-wrp a {
+	    padding: 16px 55px 16px 15px;
+	    letter-spacing: 1px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
 }
 
 
 @media(max-width: 479px){
-
-
+	#ed-dft-field-grd-forgot .ed-dft-grd-col {
+	    padding: 0;
+	}
+	#ed-dft-field-grd-forgot {
+	    background: #F5F5F5;
+	    padding: 40px 20px 75px;
+	}
 }
 
 
 
 @media(max-width: 359px){
 
+	.fb-acc-btn-wrp a {
+	    padding: 16px 55px 16px 15px;
+	    letter-spacing: 1px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
 }
 
 

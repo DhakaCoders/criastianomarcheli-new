@@ -1,5 +1,5 @@
 
-  
+   
 
 .cristiano-marcheli-sec{
 	padding: 150px 0 140px;
@@ -282,7 +282,7 @@ a.pop-up-link:hover{
 	-webkit-transform: scale3d(1,1,1);
 }
 .summer-product-grid-bg{
-    min-height: 242px;
+    min-height: 200px;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -300,10 +300,10 @@ a.pop-up-link:hover{
 }
 #pop-up-product .summer-product-grid-des {
     position: relative;
-    padding: 27px 10px 50px;
+    padding: 15px 10px 25px;
 }
 #pop-up-product .summer-product-grid-head h3 {
-    margin-bottom: 32px;
+    margin-bottom: 13px;
 }
 .summer-collection-sec {
     padding-top: 80px;
@@ -338,6 +338,9 @@ a.pop-up-link:hover{
 .summer-collection-main > ul {
 	margin-left: -11px;
 	margin-right: -11px;
+}
+.summer-collection-sec.hm-summer-collection .summer-collection-main > ul > li{
+	margin-bottom: 15px;
 }
 .summer-collection-main > ul > li{
 	float: left;
@@ -790,6 +793,12 @@ a.pop-up-link:hover{
 	.cristiano-marcheli-des {
 	    padding: 63px 0 40px 90px;
 	}
+	a.pop-up-link {
+	    font-size: 17px;
+	    line-height: 22px;
+	    letter-spacing: 2px;
+	    padding: 15px 20px;
+	}
 }
 
 @media(max-width: 1199px){
@@ -808,7 +817,7 @@ a.pop-up-link:hover{
 	}
 	.cristiano-marcheli-con {
 	    position: relative;
-	    min-height: 800px;
+	    min-height: 750px;
 	}
 	.pop-up-product-innr > ul {
 	    margin-left: -10px;
@@ -819,9 +828,6 @@ a.pop-up-link:hover{
 	    float: left;
 	    padding-left: 10px;
 	    padding-right: 10px;
-	}
-	#pop-up-product .summer-product-grid-des {
-	    padding: 15px 10px 45px;
 	}
 	.pop-up-product-lft {
 	    padding: 64px 60px 130px 60px;
@@ -845,6 +851,13 @@ a.pop-up-link:hover{
 	    padding-left: 30px;
 	    padding-right: 30px;
 	}
+	#pop-up-product .summer-product-grid span {
+	    font-size: 16px;
+	}
+	.summer-collection-sec.hm-summer-collection{
+    	padding-top: 50px;
+	} 
+
 }
 
 @media(max-width: 991px){
@@ -942,8 +955,9 @@ a.pop-up-link:hover{
 	    display: block;
 	    overflow: scroll;
 	}
-
-	
+	.cristiano-marcheli-con {
+	    min-height: 650px;
+	}	
 
 }
 
@@ -952,9 +966,8 @@ a.pop-up-link:hover{
 	    font-size: 16px;
 	    line-height: 25px;
 	}
-
     .cristiano-marcheli-des h1 {
-        line-height: 30px;
+        line-height: 37px;
         margin-bottom: 20px;
     }
     .cristiano-marcheli-des-main {
@@ -969,7 +982,6 @@ a.pop-up-link:hover{
 	    padding-bottom: 28px;
 	    font-size: 15px;
 	}
-
 	.cristiano-marcheli-bg {
 	    position: static;
 	    background: none !important;
@@ -995,15 +1007,17 @@ a.pop-up-link:hover{
 	    z-index: 2;
 	    position: relative;
 	}
-	.feed-sec .feed-sec-top-des h3,
-	.summer-collection-top-des h2, 
-	.summer-collection-top-des h3{
-		font-size: 30px;
-		line-height: 30px;
-		margin-bottom: 20px;
-	}
 	.summer-collection-top-des {
 	    padding-bottom: 20px;
+	}
+	.summer-collection-main > ul > li:nth-child(3n+1) {
+	    clear: initial;
+	}
+	.summer-collection-main > ul > li:nth-child(2n+1) {
+	    clear: left;
+	}
+	.summer-collection-main > ul > li {
+	    width: 50%;
 	}
 	.feed-sec-gallery > ul > li:nth-child(3n+1){
 		clear: left;
@@ -1050,11 +1064,6 @@ a.pop-up-link:hover{
 	.summer-collection-lnc {
 	    padding-top: 15px;
 	}
-	.music-con span {
-	    font-size: 19px;
-	}
-
-
 	.pop-up-product-lft, 
 	.pop-up-product-rgt {
 	    top: 0;
@@ -1149,7 +1158,7 @@ a.pop-up-link:hover{
 	    clear: initial;
 	}
 	.summer-collection-lnc {
-	    padding-top: 30px;
+	    padding-top: 10px;
 	}
 	.feed-garrery-inc a {
 	    letter-spacing: 4px;
@@ -1176,7 +1185,7 @@ a.pop-up-link:hover{
 	    margin-bottom: 16px;
 	}
 	#pop-up-product .summer-product-grid-bg {
-	    min-height: 155px;
+	    min-height: 130px;
 	}
 	.close-popup {
 	    top: 15px;
@@ -1191,15 +1200,10 @@ a.pop-up-link:hover{
 	#pop-up-product .summer-product-grid-head h3 a::after {
 	    content:none;
 	}
-
 	.cristiano-marcheli-des p {
 	    font-size: 15px;
 	    line-height: 22px;
 	    margin-bottom: 8px;
-	}
-	.music-con span {
-	    font-size: 17px;
-	    line-height: 25px;
 	}
 	.read-more-lnc a {
 	    line-height: 20px;

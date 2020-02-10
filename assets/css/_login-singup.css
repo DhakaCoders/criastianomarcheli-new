@@ -1,6 +1,6 @@
 .login-signin-inner-wrp {
-    padding-bottom: 190px;
-  }
+  padding-bottom: 190px;
+}
 .login-signin-sidebar{
 } 
 .login-signin-form{
@@ -982,7 +982,7 @@ a.change-addresses-btn {
   padding-bottom: 40px;
   padding-top: 10px;
 }
-td.tbl-col-6 span{
+/* td.tbl-col-6 span{
   text-decoration: none;
   letter-spacing: 1.2px;
   color: #626262;
@@ -996,7 +996,7 @@ td.tbl-col-6 span a{
 }
 td.tbl-col-6 span a:hover{
   color: #000000;
-}
+} */
 
 .tbl-col-1{
   width: 10.7%;
@@ -1365,6 +1365,14 @@ td.tbl-col-6 span a:hover{
   
 
 }
+@media(max-width: 1299px){
+  .login-signin-sidebar li a {
+      letter-spacing: 1px;
+  }
+  .logariasmos-block .info-lnc a {
+    letter-spacing: 3px;
+  }
+}
 
 @media(max-width: 1199px){
   .profile-address-d2:first-child{
@@ -1396,6 +1404,9 @@ td.tbl-col-6 span a:hover{
   .account-page-hdr {
       padding-left: 0;
   }
+  .tbl-col-7 a {
+    letter-spacing: 1px;
+  }
 }
 
 @media(max-width: 991px){
@@ -1425,7 +1436,8 @@ td.tbl-col-6 span a:hover{
   td.tbl-col-3,
   td.tbl-col-4,
   td.tbl-col-5,
-  td.tbl-col-6{
+  td.tbl-col-6,
+  td.tbl-col-7{
     width: 100% !important;
     display: block !important;
     font-size: 18px;
@@ -1505,7 +1517,7 @@ td.tbl-col-6 span a:hover{
       width: 100%;
   }
   .login-signin-inner-wrp {
-      padding: 40px 0 50px;
+      padding: 0 0 100px;
   }
   .account-fields-row {
       padding-bottom: 20px;
@@ -1629,11 +1641,19 @@ td.tbl-col-6 span a:hover{
   .my-order-pagination p{
     text-align: center;
   }
+  .login-signin-form.profile-login-signup-controller {
+    margin-top: 35px;
+  }
+/*   .login-signin-form.profile-login-signup-controller {
+    padding-right: 20px;
+    padding-left: 20px;
+} */
 }
 
 @media(max-width: 639px){
-
-
+  .login-signin-form .contact-info .sb-input {
+    width: 100%;
+  }
 }
 @media(max-width: 575px){
   .account-page-hdr h1{
@@ -1650,6 +1670,12 @@ td.tbl-col-6 span a:hover{
   }
   .logariasmos-block-rgt{
     width: 100% !important;
+  }
+  .login-signin-form .contact-info input[type="submit"] {
+    width: 148px;
+    height: 45px;
+    padding-top: 10px;
+    letter-spacing: 3px;
   }
 }
 
