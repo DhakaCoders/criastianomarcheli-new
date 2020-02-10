@@ -687,38 +687,18 @@ body.fxd-hdr .header {
 
 
 @media(max-width: 1699px){
-    .hdr-right {
+/*     .hdr-right {
         width: 33.47%;
         padding: 12px 0 12px 119px;
-    } 
+    }  */
 }
 
 @media(max-width: 1399px){
-    .hdr-right {
-        width: 33.47%;
-        padding: 12px 0 12px 50px;
-    }
-    .hdr-logo a {
-        display: inline-block;
-        vertical-align: baseline;
-        max-width: 260px;
-        width: 100%;
-        padding-top: 7px;
-    }
     .hdr-inner {
         padding: 18px 20px 18px 35px;
         background: rgba(255, 255, 255, 0.78);
         min-height: 105px;
     }
-    /* .hdr-left {
-        width: 28%;
-    }
-    .hdr-logo {
-        width: 35%;
-    }
-    .hdr-right {
-        width: 37%;
-    } */
     .hdr-nav {
         left: -35px;
     }
@@ -747,12 +727,6 @@ body.fxd-hdr .header {
     .header {
         padding-top: 15px;
     }
-    /* .hdr-left {
-        width: 15%;
-    }
-    .hdr-logo {
-        width: 44%;
-    } */
     .hdr-right {
         width: 41%;
         padding: 12px 0 12px 10px;
@@ -782,13 +756,6 @@ body.fxd-hdr .header {
     .hdr-inner {
         padding: 18px 10px;
     }
-    /* .hdr-left {
-        width: 8%;
-    }
-    .hdr-right {
-        width: 48%;
-        padding: 22px 0 12px 10px;
-    } */
     .hdr-nav ul li {
         font-size: 22px;
         line-height: 28px;
@@ -872,7 +839,6 @@ body.fxd-hdr .header {
     .hdr-nav {
         left: -10px;
         top: -36px;
-/*        padding: 90px 20px 20px 20px;*/
     }
     .hdr-inner {
         min-height: 97px;
@@ -913,8 +879,6 @@ body.fxd-hdr .header {
         width: 291px;
     }
 }
-
-
 
 
 .resize{
@@ -970,29 +934,17 @@ body.fxd-hdr .header {
 }
 
 @media(min-width:1150px){
-/*     .sticky .hdr-logo{
-        left: 20%;
-        transition: left 1s;
-    } */
+
 }
 
 @media(max-width:1150px){
-/*     .sticky .hdr-logo{
-        left: 25%;
-        transition: left 1s;
-    } */
+
 }
 
 @media(max-width:1000px){
-/*     .sticky .hdr-logo{
-        left: 30%;
-        transition: left 1s;
-    } */
+
 }
 @media(max-width:780px){
-/*     .sticky .hdr-logo{
-        left: 35%;
-        transition: left 1s;
-    } */
+
 }
 

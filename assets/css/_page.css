@@ -59,7 +59,7 @@
     height: 400px!important;
 } */
 .page-banner-2 .page-banner-des-inner {
-    padding: 195px 0 65px!important;
+    /* padding: 195px 0 65px!important; */
 }
 #page-banner-2 strong.banner-page-title,
 #page-banner-2 h1.banner-page-title{
@@ -849,12 +849,6 @@ a.btm-des-down-lnc:hover{
         position: absolute;
         padding: 8px 26px 52px;
         bottom: -13px;
-    }
-    .page-banner-des-inner {
-        padding: 258px 0;
-        position: relative;
-        z-index: 2;
-        text-align: center;
     }
     .front-page-banner .slick-dots {
         right: -30px;
