@@ -695,7 +695,7 @@ a.sizeguide-btn::after{
   }
   #breadcrumbs-page-bnr .page-banner-btm-des-innr {
       min-height:initial!important;
-      padding: 10px 0 24px;
+      padding: 0;
   }
   .sizeguide-btn-wrp {
       padding-left: 79px;

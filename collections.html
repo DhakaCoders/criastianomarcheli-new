@@ -184,6 +184,7 @@
   </div>
 </header>
 
+
 <section class="page-banner " id="breadcrumbs-page-bnr">
   <div class="page-banner-controller" style="position: relative; overflow: hidden;">
     <div class="page-banner-bg animate-banner" style="background-image:url(assets/images/collections-banner.jpg);"></div>
@@ -191,20 +192,50 @@
       <strong class="banner-page-title hide-title">Shop</strong>
     </div>
   </div>
-  <div class="page-banner-btm-des">
+  <div class="page-banner-btm-des" id="colletion-filter-con">
     <div class="page-banner-btm-des-innr"> 
       <div class="page-banner-btm-des-single">
         <a class="btm-des-down-lnc" href="#collections-grd-sec">
           <img class="resize" src="assets/images/page-bnr-btm-des-inc.svg" alt="">
         </a>
-        <div class="breadcrumbs">
-          <ul>           
-            <li><a href="#">Home</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">DRESSES</a></li>
-            <li><a href="#">FLORAL</a></li>
-          </ul>
+        <div class="collection-filter-wrp clearfix" id="collection-filter-wrp">
+          <div class="breadcrumbs">
+            <ul>           
+              <li><a href="#">Home</a></li>
+              <li><a href="#">COLLECTIONS</a></li>
+            </ul>
+          </div>            
+          <div class="page-banner-btm-des-rgt clearfix" id="banner-custom-order">
+            <form action="">
+              <ul class="ulc clearfix">
+                <li>
+                  <span>FILTER BY</span>
+                </li>          
+                <li> 
+                  <div class="custom-color">
+                    <span>Season </span> 
+                    <div class="color-slct"> 
+                      <div class="select-input">
+                        <div class="select-dep">
+                          <select class="selectpicker">
+                            <option value="1">SPRING - SUMMER</option>
+                            <option value="2">SPRING - SUMMER 2</option>
+                            <option value="3">SPRING - SUMMER 3</option>
+                            <option value="3">SPRING - SUMMER 4</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </form>
+          </div>
+
+
+
         </div>
+          
       </div>
     </div>
   </div>

@@ -3,6 +3,7 @@
   
 .shop-listing-inner{
 	padding: 65px 0 60px;
+  border-top: 1px solid #000;
 }
 .shop-listing-left-sidebar{ 
 	float: left;

@@ -140,10 +140,86 @@
 
 
 
+.collection-filter-wrp .breadcrumbs {
+  width: 53%;
+  float: left;
+  border-right: 1px solid #000000;
+  padding:40px 10px 19px 68px;
+}
+#collection-filter-wrp .page-banner-btm-des-rgt {
+  width: 47%;
+  float: left;
+  padding: 0;
+  text-align: right;
+  padding: 18px 0 11px;
+}
+#collection-filter-wrp .page-banner-btm-des-rgt form > ul > li:nth-child(2){
+  float: right;
+  width: 73%;
 
+}
+#collection-filter-wrp .page-banner-btm-des-rgt form > ul > li:nth-child(1){
+  float: left;
+  width: 27%;
+  text-align: left;
+  padding: 0 10px 0 25px;
+}
 
+#colletion-filter-con a.btm-des-down-lnc {
+  top: 30px!important;
+}
+#colletion-filter-con a.btm-des-down-lnc:hover {
+  top: 35px!important;
+}
+#collection-filter-wrp .color-slct .select-dep button.dropdown-toggle {
+  background: #b3b3b3;
+  border-radius: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 4.5px;
+  outline: none !important;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  min-width: 295px;
+}
+#collection-filter-wrp #banner-custom-order .custom-color {
+  padding-left: 100px;
+  margin-bottom: 0;
+}
+.page-banner-btm-des-single {
+  padding: 0;
+  border-bottom: 1px solid #000;
 
-
+}
+#collection-filter-wrp .page-banner-btm-des-rgt form > ul > li:nth-child(1) span{
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#collection-filter-wrp .page-banner-btm-des-rgt .color-slct {
+    width: initial!important;
+}
+.page-banner-btm-des{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#colletion-filter-con #banner-custom-order .select-dep button.dropdown-toggle, 
+#colletion-filter-con #banner-custom-order .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: initial !important;
+}
+#colletion-filter-con{
+  margin-top: 3px;  
+}
 
 
 
@@ -181,6 +257,18 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  #collection-filter-wrp .page-banner-btm-des-rgt form > ul > li:nth-child(1) span {
+      letter-spacing: 2px;
+  }
+  #collection-filter-wrp  .custom-color > span{
+      letter-spacing: 2px!important;
+  }
+  .collection-filter-wrp .breadcrumbs {
+      width: 40%;
+  }
+  #collection-filter-wrp .page-banner-btm-des-rgt {
+    width: 60%;
+  }
 }
 
 @media(max-width: 1199px){
@@ -211,6 +299,39 @@
     letter-spacing: 3px;
     padding-bottom: 30px;
   }
+  .collection-filter-wrp .breadcrumbs {
+      width:100%;
+  }
+  #collection-filter-wrp .page-banner-btm-des-rgt {
+    width: 100%;
+  }
+  #collection-filter-wrp .page-banner-btm-des-rgt {
+      text-align: left;
+  }
+  #collection-filter-wrp .page-banner-btm-des-rgt form > ul > li:nth-child(1) span {
+    text-align: left;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 4.2px;
+    position: relative;
+    top: -4px;
+  }
+  .collection-filter-wrp .breadcrumbs {
+    border-right: 1px solid #000000;
+    padding: 30px 10px 19px 55px;
+  }
+  .collection-filter-wrp .breadcrumbs {
+      border-right: 0;
+      padding: 22px 10px 5px 50px;
+  }
+  #colletion-filter-con a.btm-des-down-lnc {
+    top: 16px !important;
+  }
+  #colletion-filter-con a.btm-des-down-lnc:hover {
+    top: 21px !important;
+  }
+
 }
 
 @media(max-width: 767px){
@@ -252,15 +373,54 @@
 }
 
 @media(max-width: 575px){
+  #collection-filter-wrp .page-banner-btm-des-rgt form > ul > li:nth-child(1) {
+    width: 100%;
+    padding: 9px 10px 0 0;
+  }
+  #collection-filter-wrp .page-banner-btm-des-rgt form > ul > li:nth-child(2){
+    float: right;
+    width: 100%;
+
+  }
+  #collection-filter-wrp .page-banner-btm-des-rgt {
+    padding: 0 0 11px;
+
+  }
+/*   #colletion-filter-con a.btm-des-down-lnc {
+    top: 24px !important;
+  }
+  #colletion-filter-con a.btm-des-down-lnc {
+    top: 30px !important;
+  } */
+
 
 }
 
 @media(max-width: 479px){  
+#collection-filter-wrp #banner-custom-order .custom-color {
+    padding-left: 75px;
+    margin-bottom: 0;
+}
+#colletion-filter-con #banner-custom-order .select-dep button.dropdown-toggle, #colletion-filter-con #banner-custom-order .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: initial !important;
+}
+#collection-filter-wrp .color-slct .select-dep button.dropdown-toggle {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 14px;
+  min-width: 220px;
+}
+
 
 }
 
 @media(max-width: 359px){
-
+  #collection-filter-wrp .color-slct .select-dep button.dropdown-toggle {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    min-width: 210px;
+  }
 }
 
 
