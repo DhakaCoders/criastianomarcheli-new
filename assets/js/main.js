@@ -24,7 +24,7 @@ var windowWidth = $(window).width();
 //header-menu
 if( $('.nav-opener').length ){
   $('.nav-opener').on('click', function(){
-    $('.hdr-nav').slideToggle(500);
+    $('.sm-hdr-nav').slideToggle(500);
     $(this).toggleClass('nav-opener-active');
   });
 };
