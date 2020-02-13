@@ -25,7 +25,7 @@
 .form-hdr-title h2{
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	margin-bottom: 30px;
+/*	margin-bottom: 30px;*/
 	text-transform: initial;
 	line-height: 30px;
 }
@@ -64,7 +64,7 @@
 .ed-dft-form-controller .ed-dft-grd-col label,
 .ed-dft-form-controller  .ed-dft-grd-full label{
 	display: block;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	margin-bottom: 8px;
 	position: relative;
 	font-weight: 700;
@@ -596,10 +596,14 @@
 	line-height: 25px;
 	margin-bottom: 20px;
 	color: #000;
+	text-transform: uppercase;
 }
 .captcha-wrp{
 	position: relative;
 	margin-top: 28px;
+	display: flex;
+	align-items: center;
+	padding-right: 0!important;
 }
 .captcha-wrp i {
 	display: inline-block;
@@ -616,13 +620,12 @@
 	letter-spacing: 5.45455px;
 	text-transform: uppercase;
 	color: #000000;
-	position: absolute;
-	top: 50%;
-	right: -12px;
 	background: #0000;
-	-webkit-transform: translate(0, -50%);
-	-ms-transform: translate(0, -50%);
-	transform: translate(0, -50%);
+	padding-left: 25px;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-right: -20px;
 }
 #ed-dft-field-grd-forgot > p{
 	font-weight: 300;
@@ -667,10 +670,10 @@ Start Responsive ->>
 		padding-right: 30px;
 		padding-left: 30px;
 	}
-	.ed-dft-form-entry-hdr,
+	/*.ed-dft-form-entry-hdr,
 	.form-hdr-title{
 		padding-left: 30px;
-	}
+	}*/
 	.ed-dft-field-grd-rgt{
 		padding-right: 0;
 	}
@@ -777,7 +780,7 @@ Start Responsive ->>
 		padding-bottom: 170px;
 	}
 	#ed-dft-field-grd-reg .ed-dft-field-grd-reg-con {
-	    padding: 55px 30px 30px;
+	    padding: 55px 10px 30px;
 	}
 	#ed-dft-field-grd-forgot .ed-dft-grd-col {
 	    width: 100%;
@@ -873,6 +876,9 @@ Start Responsive ->>
 	    letter-spacing: 1px;
 	    font-size: 12px;
 	    line-height: 20px;
+	}
+	#ed-dft-field-grd-reg .ed-dft-grd-col{
+		width: 100%;
 	}
 }
 

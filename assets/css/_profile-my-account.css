@@ -213,7 +213,7 @@
 	    margin-bottom:0;
 	}
 	.form-hdr-title {
-	    padding-top: 25px;
+	    /*padding-top: 25px;*/
 	    padding-bottom: 25px;
 	}
 	#personal-info-sec .login-signin-inner-wrp {
@@ -229,7 +229,7 @@
 	    margin-top: 35px;
 	}
 	.form-hdr-title {
-	    padding-top: 20px;
+	    /*padding-top: 20px;*/
 	    padding-bottom: 20px;
 	}
 }

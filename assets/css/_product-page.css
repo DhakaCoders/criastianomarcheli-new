@@ -304,8 +304,11 @@
   padding: 4px 12px;
   width: 44px;
   height: 50px;
+  border-right: 0;
 }
-
+.custom-size-btn label.lbl:last-of-type{
+  border-right: 1px solid #000;
+}
 .custom-size input[type=radio]:checked + label,
 .custom-size input[type=checkbox]:checked + label{
   outline: 0;

@@ -677,6 +677,9 @@ body.fxd-hdr .header {
    right: 7px;
 }
 
+.header.sticky #h-cart span{
+    width: 25px;
+}
 
 
 @media(max-width: 1699px){

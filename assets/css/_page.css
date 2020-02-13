@@ -226,7 +226,11 @@ a.btm-des-down-lnc:hover{
 .page-banner-btm-des.shoplisting-banner-btm a.btm-des-down-lnc {
     top: 100px;
 }
-
+.breadcrumbs{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
 #breadcrumbs-page-bnr a.btm-des-down-lnc {
     bottom:12px;
 }

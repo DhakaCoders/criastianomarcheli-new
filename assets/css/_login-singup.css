@@ -705,7 +705,7 @@ a.change-addresses-btn {
 
 .new-add-address-fields label{
   display: block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-top: 0;
   font-size: 14px;
   line-height: 16px;

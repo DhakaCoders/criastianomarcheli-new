@@ -121,7 +121,8 @@
 .style-book-middle-line-innr::before{
 	content:"";
 	position: absolute;
-	bottom: 0;
+	top: 250px;
+	bottom: 100px;
 	left:50%;
 	-ms-transform:translateX(-50%);
 	-webkit-transform:translateX(-50%);
@@ -142,18 +143,20 @@
 	text-transform: uppercase;
 }
 .casual-book-wrp {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
-    padding-top: 33px;
-    padding-bottom: 20px;
-    max-height: 205px;
+    padding: 0;
+    max-height: 44px;
     text-align: center;
+    bottom: 30px;
+    left: 0;
+    right: 0;
 }
 .casual-book-spn {
-    font-size: 16px;
-    line-height: 24.8px;
-    letter-spacing: 7.27px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 6.36364px;
     color: #ffffff;
     text-transform: uppercase;
     padding-left: 5px;
