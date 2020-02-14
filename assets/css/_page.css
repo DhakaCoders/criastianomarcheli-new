@@ -348,7 +348,7 @@ a.btm-des-down-lnc:hover{
     bottom: -6px;
 }
 .page-banner-btm-des-rgt .color-slct{
-    width: 261px;
+    width: 281px;
 }
 .music-con {
     position: absolute;
@@ -825,6 +825,9 @@ a.btm-des-down-lnc:hover{
         position: absolute;
         bottom: 20px;
         right: 9%;
+    }
+    .page-banner-btm-des-rgt .color-slct {
+        width: 230px;
     }
 }
 
